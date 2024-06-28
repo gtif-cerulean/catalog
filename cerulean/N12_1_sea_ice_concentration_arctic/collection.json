@@ -1,0 +1,158 @@
+{
+  "type": "Collection",
+  "id": "N12_1_sea_ice_concentration_arctic",
+  "stac_version": "1.0.0",
+  "description": "N12_sea_ice_concentration/N12.md",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./N12_1_sea_ice_concentration_arctic/collection.json",
+      "type": "application/json",
+      "title": "Sea ice concentration GCOM-W - Arctic",
+      "endpointtype": "WMS_OverwriteTimes",
+      "code": "N12_1_sea_ice_concentration_arctic",
+      "id": "N12_1_sea_ice_concentration_arctic",
+      "themes": [
+        "cryosphere"
+      ],
+      "tags": [
+        "sea ice"
+      ],
+      "satellite": [
+        "GCOM-W"
+      ],
+      "sensor": [
+        "GCOM-W"
+      ],
+      "agency": [
+        "JAXA"
+      ],
+      "subcode": "N12_1_sea_ice_concentration_arctic"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2022",
+      "roles": [
+        "baselayer"
+      ],
+      "id": "cloudless-2022"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    }
+  ],
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "sea ice"
+  ],
+  "satellite": [
+    "GCOM-W"
+  ],
+  "sensor": [
+    "GCOM-W"
+  ],
+  "agency": [
+    "JAXA"
+  ],
+  "subcode": "N12_1_sea_ice_concentration_arctic",
+  "title": "Sea ice concentration GCOM-W - Arctic",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -85,
+          180,
+          85
+        ],
+        [
+          -20,
+          77,
+          50,
+          83
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1970-01-01T00:00:00Z",
+          "2024-06-28T13:16:41.793993Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Global Change Observation Mission \u2013 Water SHIZUKU (GCOM-W)",
+      "description": "The purpose of this website is, first and foremost, to provide the science and broader communities with global, updated ocean productivity estimates. In addition, the website provides information on the models employed, access to model code and ancillary data sets, and comparisons of productivity estimates for alternative models. Field data sets relevant to ocean productivity modeling are also provided and will be continually expanded as new data become available. Educational material and background information on phytoplankton ecology and physiology will also be added in the future.",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://global.jaxa.jp/projects/sat/gcom_w/"
+    },
+    {
+      "name": "GCOM-W Research Product Distribution Service",
+      "description": "The GCOM-W Research Product Distribution Service provides GCOM-W/AMSR2 and Aqua/AMSR-E research products with free of charge.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://suzaku.eorc.jaxa.jp/GCOM_W/research/resdist.html"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "N12_1_sea_ice_concentration_arctic"
+    ],
+    "themes": [
+      "cryosphere"
+    ],
+    "satellite": [
+      "GCOM-W"
+    ],
+    "sensor": [
+      "GCOM-W"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main//N12_sea_ice_concentration/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main//N12_sea_ice_concentration/Arctic-N12_1.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

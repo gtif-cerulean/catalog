@@ -1,0 +1,86 @@
+{
+  "type": "Collection",
+  "id": "4D_Greenland_Meltmap",
+  "stac_version": "1.0.0",
+  "description": "Greenland Meltmap from 4D Greenland",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./4D_Greenland_Meltmap/1970/d516d258-bfbe-4de3-900b-52c4af74d4f6.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Greenland Meltmap"
+    }
+  ],
+  "subtitle": "Greenland Meltmap from 4D Greenland",
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "ASCAT"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "4D_Greenland_Meltmap",
+  "endpointtype": "WMS_OverwriteTimes",
+  "title": "Greenland Meltmap",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -89.314518,
+          58.787273,
+          7.554587,
+          83.946756
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2007-01-02T00:00:00Z",
+          "2021-12-28T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Sentinel-Hub"
+    }
+  ],
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main//4D_Greenland_Meltmap/legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main//4D_Greenland_Meltmap/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

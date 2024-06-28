@@ -1,0 +1,133 @@
+{
+  "type": "Collection",
+  "id": "Polartep_RCM_demo",
+  "stac_version": "1.0.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./Polartep_RCM_demo/collection.json",
+      "type": "application/json",
+      "title": "Radarsat Constellation Mission Sigma0",
+      "endpointtype": "Collection-only_OverwriteTimes",
+      "code": "Polartep_RCM_demo",
+      "id": "Polartep_RCM_demo",
+      "themes": [
+        "cryosphere"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "RADARSAT"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "CSA"
+      ],
+      "subcode": "Polartep_RCM_demo"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2022",
+      "roles": [
+        "baselayer"
+      ],
+      "id": "cloudless-2022"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    }
+  ],
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "RADARSAT"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "CSA"
+  ],
+  "subcode": "Polartep_RCM_demo",
+  "title": "Radarsat Constellation Mission Sigma0",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -112,
+          45,
+          -11,
+          75
+        ],
+        [
+          -112,
+          45,
+          -11,
+          75
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-05-01T00:00:00Z",
+          "2021-05-25T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "summaries": {
+    "subcode": [
+      "Polartep_RCM_demo"
+    ],
+    "themes": [
+      "cryosphere"
+    ],
+    "satellite": [
+      "RADARSAT"
+    ],
+    "sensor": [
+      "placeholder"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main//Polartep_RCM_demo/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "type": "Collection",
+  "id": "Polartep_SeaIceCharts_demo",
+  "stac_version": "1.0.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./Polartep_SeaIceCharts_demo/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Charts Geometries",
+      "endpointtype": "Collection-only_OverwriteTimes",
+      "code": "Polartep_SeaIceCharts_demo",
+      "id": "Polartep_SeaIceCharts_demo",
+      "themes": [
+        "cryosphere"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "Polartep_SeaIceCharts_demo"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2022",
+      "roles": [
+        "baselayer"
+      ],
+      "id": "cloudless-2022"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    }
+  ],
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "Polartep_SeaIceCharts_demo",
+  "title": "Sea Ice Charts Geometries",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -50,
+          59,
+          -39,
+          65
+        ],
+        [
+          -50,
+          59,
+          -39,
+          65
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-01-16T00:00:00Z",
+          "2024-01-19T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "summaries": {
+    "subcode": [
+      "Polartep_SeaIceCharts_demo"
+    ],
+    "themes": [
+      "cryosphere"
+    ],
+    "satellite": [
+      "placeholder"
+    ],
+    "sensor": [
+      "placeholder"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main//Polartep_SeaIceCharts_demo/legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main//Polartep_SeaIceCharts_demo/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

@@ -1,0 +1,801 @@
+{
+  "type": "Catalog",
+  "id": "cerulean",
+  "stac_version": "1.0.0",
+  "description": "Catalog providing description to available datasets to the Cerulean GTIF project",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./4D_Greenland_Melt_Duration/collection.json",
+      "type": "application/json",
+      "title": "Greenland Melt Duration",
+      "subtitle": "Greenland Melt Duration from 4D Greenland",
+      "code": "4D_Greenland_Melt_Duration",
+      "id": "4D_Greenland_Melt_Duration",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "4D_Greenland_Melt_Duration",
+      "satellite": [
+        "ASCAT"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./4D_Greenland_Melt_Onset/collection.json",
+      "type": "application/json",
+      "title": "Greenland Melt Onset",
+      "subtitle": "Greenland Melt Onset from 4D Greenland",
+      "code": "4D_Greenland_Melt_Onset",
+      "id": "4D_Greenland_Melt_Onset",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "4D_Greenland_Melt_Onset",
+      "satellite": [
+        "ASCAT"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./4D_Greenland_Melt_Season_End/collection.json",
+      "type": "application/json",
+      "title": "Greenland Melt Season End",
+      "subtitle": "Greenland Melt Season End from 4D Greenland",
+      "code": "4D_Greenland_Melt_Season_End",
+      "id": "4D_Greenland_Melt_Season_End",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "4D_Greenland_Melt_Season_End",
+      "satellite": [
+        "ASCAT"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./4D_Greenland_Meltmap/collection.json",
+      "type": "application/json",
+      "title": "Greenland Meltmap",
+      "subtitle": "Greenland Meltmap from 4D Greenland",
+      "code": "4D_Greenland_Meltmap",
+      "id": "4D_Greenland_Meltmap",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "4D_Greenland_Meltmap",
+      "satellite": [
+        "ASCAT"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./temperature/collection.json",
+      "type": "application/json",
+      "title": "Global temperature",
+      "subtitle": "Global temperature description",
+      "code": "CDS1_temperature",
+      "id": "temperature",
+      "themes": [
+        "air"
+      ],
+      "subcode": "CDS1_temperature",
+      "tags": [
+        "Copernicus Services",
+        "C3S",
+        "CDS",
+        "Multi-sensors",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "otherSources": [
+        "ERA5"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./wind_10m_u/collection.json",
+      "type": "application/json",
+      "title": "Wind U Field",
+      "subtitle": "Gridded ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 4 to 7 decades. This parameter is the wind U field",
+      "code": "CDS3",
+      "id": "wind_10m_u",
+      "themes": [
+        "air"
+      ],
+      "subcode": "CDS3",
+      "tags": [
+        "Copernicus Services",
+        "C3S",
+        "CDS",
+        "Multi-sensors",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "otherSources": [
+        "ERA5"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./wind_10m_v/collection.json",
+      "type": "application/json",
+      "title": "Wind V Field",
+      "subtitle": "Gridded ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 4 to 7 decades. This parameter is the wind V field",
+      "code": "CDS4",
+      "id": "wind_10m_v",
+      "themes": [
+        "air"
+      ],
+      "subcode": "CDS4",
+      "tags": [
+        "Copernicus Services",
+        "C3S",
+        "CDS",
+        "Multi-sensors",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "otherSources": [
+        "ERA5"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./N12_1_sea_ice_concentration_arctic/collection.json",
+      "type": "application/json",
+      "title": "Sea ice concentration GCOM-W - Arctic",
+      "code": "N12_1_sea_ice_concentration_arctic",
+      "id": "N12_1_sea_ice_concentration_arctic",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "N12_1_sea_ice_concentration_arctic",
+      "satellite": [
+        "GCOM-W"
+      ],
+      "sensor": [
+        "GCOM-W"
+      ],
+      "tags": [
+        "sea ice"
+      ],
+      "agency": [
+        "JAXA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Polartep_RCM_demo/collection.json",
+      "type": "application/json",
+      "title": "Radarsat Constellation Mission Sigma0",
+      "code": "Polartep_RCM_demo",
+      "id": "Polartep_RCM_demo",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "Polartep_RCM_demo",
+      "satellite": [
+        "RADARSAT"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "CSA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Polartep_S1_dedl_demo/collection.json",
+      "type": "application/json",
+      "title": "Destination Earth Data Lake Sentinel 1 GRD",
+      "code": "Polartep_S1_dedl_demo",
+      "id": "Polartep_S1_dedl_demo",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "Polartep_S1_dedl_demo",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Polartep_S1_demo/collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1",
+      "code": "Polartep_S1_demo",
+      "id": "Polartep_S1_demo",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "Polartep_S1_demo",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Polartep_SeaIce_demo/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Concentration Geometries",
+      "code": "Polartep_SeaIce_demo",
+      "id": "Polartep_SeaIce_demo",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "Polartep_SeaIce_demo",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Polartep_SeaIceCharts_demo/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Charts Geometries",
+      "code": "Polartep_SeaIceCharts_demo",
+      "id": "Polartep_SeaIceCharts_demo",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "Polartep_SeaIceCharts_demo",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Polartep_SeaIceDetection_tif_demo/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Concentration Detection Model",
+      "code": "Polartep_SeaIceDetection_tif_demo",
+      "id": "Polartep_SeaIceDetection_tif_demo",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "Polartep_SeaIceDetection_tif_demo",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Polartep_Snow_specific_surface_area_demo/collection.json",
+      "type": "application/json",
+      "title": "Snow Specific Surface Area",
+      "code": "Polartep_Snow_specific_surface_area_demo",
+      "id": "Polartep_Snow_specific_surface_area_demo",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "Polartep_Snow_specific_surface_area_demo",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Polartep_Snowgrain_diameter_demo/collection.json",
+      "type": "application/json",
+      "title": "Snow Grain Diameter",
+      "code": "Polartep_Snowgrain_diameter_demo",
+      "id": "Polartep_Snowgrain_diameter_demo",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "Polartep_Snowgrain_diameter_demo",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SITI_IS2SITMOGR4-cog/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Thickness (ICESat-2)",
+      "code": "SITI",
+      "id": "SITI_IS2SITMOGR4-cog",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "SITI",
+      "satellite": [
+        "ICESat-2"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ4_P1D_SICONC/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice area fraction",
+      "code": "TOPAZ4_P1D_SICONC",
+      "id": "TOPAZ4_P1D_SICONC",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ4_P1D_SICONC",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ4_P1D_SISNTHICK/collection.json",
+      "type": "application/json",
+      "title": "Surface Snow thickness",
+      "code": "TOPAZ4_P1D_SISNTHICK",
+      "id": "TOPAZ4_P1D_SISNTHICK",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ4_P1D_SISNTHICK",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ4_P1D_SITHICK/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice thickness",
+      "code": "TOPAZ4_P1D_SITHICK",
+      "id": "TOPAZ4_P1D_SITHICK",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ4_P1D_SITHICK",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ4_P1D_VXO/collection.json",
+      "type": "application/json",
+      "title": "Eastward Sea water velocity",
+      "code": "TOPAZ4_P1D_VXO",
+      "id": "TOPAZ4_P1D_VXO",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ4_P1D_VXO",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ4_P1D_VXSI/collection.json",
+      "type": "application/json",
+      "title": "Eastward Sea ice velocity",
+      "code": "TOPAZ4_P1D_VXSI",
+      "id": "TOPAZ4_P1D_VXSI",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ4_P1D_VXSI",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ4_P1D_VYO/collection.json",
+      "type": "application/json",
+      "title": "Northward Sea water velocity",
+      "code": "TOPAZ4_P1D_VYO",
+      "id": "TOPAZ4_P1D_VYO",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ4_P1D_VYO",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ4_P1D_VYSI/collection.json",
+      "type": "application/json",
+      "title": "Northward Sea ice velocity",
+      "code": "TOPAZ4_P1D_VYSI",
+      "id": "TOPAZ4_P1D_VYSI",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ4_P1D_VYSI",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ5_P1D_SIAGE/collection.json",
+      "type": "application/json",
+      "title": "Age of sea ice",
+      "code": "TOPAZ5_P1D_SIAGE",
+      "id": "TOPAZ5_P1D_SIAGE",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ5_P1D_SIAGE",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ5_P1D_SICONC/collection.json",
+      "type": "application/json",
+      "title": "Sea ice area fraction",
+      "code": "TOPAZ5_P1D_SICONC",
+      "id": "TOPAZ5_P1D_SICONC",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ5_P1D_SICONC",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ5_P1D_SISNTHICK/collection.json",
+      "type": "application/json",
+      "title": "Surface snow thickness",
+      "code": "TOPAZ5_P1D_SISNTHICK",
+      "id": "TOPAZ5_P1D_SISNTHICK",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ5_P1D_SISNTHICK",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ5_P1D_SITHICK/collection.json",
+      "type": "application/json",
+      "title": "Sea ice thickness",
+      "code": "TOPAZ5_P1D_SITHICK",
+      "id": "TOPAZ5_P1D_SITHICK",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ5_P1D_SITHICK",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ5_P1D_VXO/collection.json",
+      "type": "application/json",
+      "title": "Eastward sea water velocity",
+      "code": "TOPAZ5_P1D_VXO",
+      "id": "TOPAZ5_P1D_VXO",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ5_P1D_VXO",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ5_P1D_VXSI/collection.json",
+      "type": "application/json",
+      "title": "Eastward sea ice velocity",
+      "code": "TOPAZ5_P1D_VXSI",
+      "id": "TOPAZ5_P1D_VXSI",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ5_P1D_VXSI",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ5_P1D_VYO/collection.json",
+      "type": "application/json",
+      "title": "Northward sea water velocity",
+      "code": "TOPAZ5_P1D_VYO",
+      "id": "TOPAZ5_P1D_VYO",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ5_P1D_VYO",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ5_P1D_VYSI/collection.json",
+      "type": "application/json",
+      "title": "Northward sea ice velocity",
+      "code": "TOPAZ5_P1D_VYSI",
+      "id": "TOPAZ5_P1D_VYSI",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ5_P1D_VYSI",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://gtif-cerulean.github.io/catalog/cerulean/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "Cerulean GTIF project catalog"
+}

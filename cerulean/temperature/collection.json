@@ -1,0 +1,164 @@
+{
+  "type": "Collection",
+  "id": "temperature",
+  "stac_version": "1.0.0",
+  "description": "Global temperature description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./temperature/collection.json",
+      "type": "application/json",
+      "title": "Global temperature",
+      "endpointtype": "Sentinel Hub_byoc",
+      "subtitle": "Global temperature description",
+      "code": "CDS1_temperature",
+      "id": "temperature",
+      "themes": [
+        "air"
+      ],
+      "tags": [
+        "Copernicus Services",
+        "C3S",
+        "CDS",
+        "Multi-sensors",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "subcode": "CDS1_temperature",
+      "otherSources": [
+        "ERA5"
+      ]
+    },
+    {
+      "rel": "license",
+      "href": "https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf",
+      "type": "application/pdf",
+      "title": "Licence to Use Copernicus Products"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2022",
+      "roles": [
+        "baselayer"
+      ],
+      "id": "cloudless-2022"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    }
+  ],
+  "sci:doi": "10.24381/cds.68d2bb30",
+  "sci:citation": "Mu\u00f1oz Sabater, J., (2019) was downloaded from the Copernicus Climate Change Service (2021).\nThe results contain modified Copernicus Climate Change Service information 2020. \nNeither the European Commission nor ECMWF is responsible for any use that may be made of the Copernicus information or data it contains.\n",
+  "sci:publications": [
+    {
+      "citation": "Zaitchik, B.F., Sweijd, N., Shumake-Guillemot, J. et al. A framework for research linking weather, climate and COVID-19. Nat Commun 11, 5730 (2020).",
+      "doi": "10.1038/s41467-020-19546-7"
+    }
+  ],
+  "subtitle": "Global temperature description",
+  "themes": [
+    "air"
+  ],
+  "tags": [
+    "Copernicus Services",
+    "C3S",
+    "CDS",
+    "Multi-sensors",
+    "Open data"
+  ],
+  "agency": [
+    "European Commission",
+    "ECMWF"
+  ],
+  "subcode": "CDS1_temperature",
+  "otherSources": [
+    "ERA5"
+  ],
+  "title": "Global temperature",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.22495138408348,
+          180.0,
+          90.125
+        ],
+        [
+          -180.0,
+          -90.22495138408348,
+          180.0,
+          90.125
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1959-01-01T00:00:00Z",
+          "2024-03-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Copernicus Climate Change Service",
+      "url": "https://cds.climate.copernicus.eu/cdsapp#!/dataset/10.24381/cds.68d2bb30"
+    },
+    {
+      "name": "Climate Data Store",
+      "url": "https://cds.climate.copernicus.eu/cdsapp#!/dataset/10.24381/cds.68d2bb30"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "CDS1_temperature"
+    ],
+    "themes": [
+      "air"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main//CDS1_temperature/CDS1_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main//CDS1_temperature/CDS1_temperature.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

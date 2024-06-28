@@ -1,0 +1,98 @@
+{
+  "type": "Collection",
+  "id": "N12_1_sea_ice_concentration_arctic",
+  "stac_version": "1.0.0",
+  "description": "N12_sea_ice_concentration/N12.md",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./N12_1_sea_ice_concentration_arctic/1970/b4bad157-0827-4833-80fc-932056104b8f.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sea ice concentration GCOM-W - Arctic"
+    }
+  ],
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "sea ice"
+  ],
+  "satellite": [
+    "GCOM-W"
+  ],
+  "sensor": [
+    "GCOM-W"
+  ],
+  "agency": [
+    "JAXA"
+  ],
+  "subcode": "N12_1_sea_ice_concentration_arctic",
+  "endpointtype": "WMS_OverwriteTimes",
+  "title": "Sea ice concentration GCOM-W - Arctic",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -20,
+          77,
+          50,
+          83
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1978-11-01T00:00:00Z",
+          "2024-02-29T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Global Change Observation Mission \u2013 Water SHIZUKU (GCOM-W)",
+      "description": "The purpose of this website is, first and foremost, to provide the science and broader communities with global, updated ocean productivity estimates. In addition, the website provides information on the models employed, access to model code and ancillary data sets, and comparisons of productivity estimates for alternative models. Field data sets relevant to ocean productivity modeling are also provided and will be continually expanded as new data become available. Educational material and background information on phytoplankton ecology and physiology will also be added in the future.",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://global.jaxa.jp/projects/sat/gcom_w/"
+    },
+    {
+      "name": "GCOM-W Research Product Distribution Service",
+      "description": "The GCOM-W Research Product Distribution Service provides GCOM-W/AMSR2 and Aqua/AMSR-E research products with free of charge.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://suzaku.eorc.jaxa.jp/GCOM_W/research/resdist.html"
+    }
+  ],
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main//N12_sea_ice_concentration/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main//N12_sea_ice_concentration/Arctic-N12_1.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

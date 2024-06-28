@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "2024-01-19",
+  "properties": {
+    "datetime": "2024-01-19T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Charts Geometries"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Charts Geometries"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    -50,
+    59,
+    -39,
+    65
+  ],
+  "stac_extensions": [],
+  "collection": "Polartep_SeaIceCharts_demo"
+}

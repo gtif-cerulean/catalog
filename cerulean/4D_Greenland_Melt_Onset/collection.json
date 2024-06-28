@@ -1,0 +1,147 @@
+{
+  "type": "Collection",
+  "id": "4D_Greenland_Melt_Onset",
+  "stac_version": "1.0.0",
+  "description": "Greenland Melt Onset from 4D Greenland",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./4D_Greenland_Melt_Onset/collection.json",
+      "type": "application/json",
+      "title": "Greenland Melt Onset",
+      "endpointtype": "Sentinel Hub_byoc",
+      "subtitle": "Greenland Melt Onset from 4D Greenland",
+      "code": "4D_Greenland_Melt_Onset",
+      "id": "4D_Greenland_Melt_Onset",
+      "themes": [
+        "cryosphere"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "ASCAT"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "4D_Greenland_Melt_Onset"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2022",
+      "roles": [
+        "baselayer"
+      ],
+      "id": "cloudless-2022"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    }
+  ],
+  "subtitle": "Greenland Melt Onset from 4D Greenland",
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "ASCAT"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "4D_Greenland_Melt_Onset",
+  "title": "Greenland Melt Onset",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -89.3145177846944,
+          58.787272841702126,
+          7.554586574322073,
+          83.94675630823953
+        ],
+        [
+          -89.3145177846944,
+          58.787272841702126,
+          7.554586574322073,
+          83.94675630823953
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2007-01-01T00:00:00Z",
+          "2021-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Sentinel-Hub"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "4D_Greenland_Melt_Onset"
+    ],
+    "themes": [
+      "cryosphere"
+    ],
+    "satellite": [
+      "ASCAT"
+    ],
+    "sensor": [
+      "placeholder"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main//4D_Greenland_Melt_Onset/legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main//4D_Greenland_Melt_Onset/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

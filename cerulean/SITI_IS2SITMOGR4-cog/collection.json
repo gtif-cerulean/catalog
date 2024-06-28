@@ -1,0 +1,140 @@
+{
+  "type": "Collection",
+  "id": "SITI_IS2SITMOGR4-cog",
+  "stac_version": "1.0.0",
+  "description": "SITI_IS2SITMOGR4-cog/SITI.md",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./SITI_IS2SITMOGR4-cog/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Thickness (ICESat-2)",
+      "endpointtype": "VEDA_cog",
+      "code": "SITI",
+      "id": "SITI_IS2SITMOGR4-cog",
+      "themes": [
+        "cryosphere"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "ICESat-2"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "NASA"
+      ],
+      "subcode": "SITI"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2022",
+      "roles": [
+        "baselayer"
+      ],
+      "id": "cloudless-2022"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    }
+  ],
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "ICESat-2"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "NASA"
+  ],
+  "subcode": "SITI",
+  "title": "Sea Ice Thickness (ICESat-2)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          31.269270721494188,
+          179.7061752664782,
+          85.18898561151076
+        ],
+        [
+          -20,
+          77,
+          50,
+          85
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-11-01T00:00:00Z",
+          "2021-04-30T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "summaries": {
+    "subcode": [
+      "SITI"
+    ],
+    "themes": [
+      "cryosphere"
+    ],
+    "satellite": [
+      "ICESat-2"
+    ],
+    "sensor": [
+      "placeholder"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main//SITI_IS2SITMOGR4-cog/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main//SITI_IS2SITMOGR4-cog/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

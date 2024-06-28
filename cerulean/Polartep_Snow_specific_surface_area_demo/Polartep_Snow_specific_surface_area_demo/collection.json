@@ -1,0 +1,73 @@
+{
+  "type": "Collection",
+  "id": "Polartep_Snow_specific_surface_area_demo",
+  "stac_version": "1.0.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./Polartep_Snow_specific_surface_area_demo/1970/20990b08-5e65-4e61-a2d3-d61186fb0984.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Snow Specific Surface Area"
+    }
+  ],
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "Polartep_Snow_specific_surface_area_demo",
+  "endpointtype": "Collection-only",
+  "title": "Snow Specific Surface Area",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -25.7,
+          62.4,
+          -11.3,
+          67.1
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-06-28T13:16:41.839883Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main//Polartep_Snow_specific_surface_area_demo/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

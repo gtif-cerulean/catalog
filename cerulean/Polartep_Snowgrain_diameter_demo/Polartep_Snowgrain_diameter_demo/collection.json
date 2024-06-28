@@ -1,0 +1,73 @@
+{
+  "type": "Collection",
+  "id": "Polartep_Snowgrain_diameter_demo",
+  "stac_version": "1.0.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./Polartep_Snowgrain_diameter_demo/1970/047907dd-2058-4c44-896f-49a11b88e5ac.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Snow Grain Diameter"
+    }
+  ],
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "Polartep_Snowgrain_diameter_demo",
+  "endpointtype": "Collection-only",
+  "title": "Snow Grain Diameter",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -25.7,
+          62.4,
+          -11.3,
+          67.1
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-06-28T13:16:41.846186Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main//Polartep_Snowgrain_diameter_demo/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

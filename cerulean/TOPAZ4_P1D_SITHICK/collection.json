@@ -1,0 +1,156 @@
+{
+  "type": "Collection",
+  "id": "TOPAZ4_P1D_SITHICK",
+  "stac_version": "1.0.0",
+  "description": "TOPAZ4_P1D_VXSI/TOPAZ4_P1D_VXSI.md",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ4_P1D_SITHICK/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice thickness",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
+      "code": "TOPAZ4_P1D_SITHICK",
+      "id": "TOPAZ4_P1D_SITHICK",
+      "themes": [
+        "cryosphere"
+      ],
+      "tags": [
+        "model"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "subcode": "TOPAZ4_P1D_SITHICK"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2022",
+      "roles": [
+        "baselayer"
+      ],
+      "id": "cloudless-2022"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    }
+  ],
+  "sci:citation": "TOPAZ4b - Arctic Ocean Physics Reanalysis; ARCTIC_MULTIYEAR_PHY_002_003; E.U. Copernicus Marine Service Information (CMEMS), Marine Data Store (MDS).",
+  "sci:publications": [
+    {
+      "doi": "10.48670/moi-00007"
+    }
+  ],
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "model"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "CMEMS"
+  ],
+  "subcode": "TOPAZ4_P1D_SITHICK",
+  "title": "Sea Ice thickness",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -85,
+          180,
+          85
+        ],
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1970-01-01T00:00:00Z",
+          "2024-06-28T13:16:46.469723Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "E.U. Copernicus Marine Service Information (CMEMS)",
+      "description": "The Copernicus Marine Service (or Copernicus Marine Environment Monitoring Service) is the marine component of the Copernicus Programme of the European Union. It provides free, regular and systematic authoritative information on the state of the Blue (physical), White (sea ice) and Green (biogeochemical) ocean,  on a global and regional scale. It is funded by the European Commission (EC) and implemented by Mercator Ocean International. It is designed to serve EU policies and International legal Commitments related to Ocean Governance, to cater for the needs of society at large for global ocean knowledge and to boost the Blue Economy across all maritime sectors by providing free-of-charge state-of-the-art ocean data and information.",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://data.marine.copernicus.eu/"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "TOPAZ4_P1D_SITHICK"
+    ],
+    "themes": [
+      "cryosphere"
+    ],
+    "satellite": [
+      "placeholder"
+    ],
+    "sensor": [
+      "placeholder"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main//TOPAZ4_P1D_SITHICK/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main//TOPAZ4_P1D_SITHICK/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

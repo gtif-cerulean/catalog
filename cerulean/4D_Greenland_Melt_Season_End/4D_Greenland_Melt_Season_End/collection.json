@@ -1,0 +1,171 @@
+{
+  "type": "Collection",
+  "id": "4D_Greenland_Melt_Season_End",
+  "stac_version": "1.0.0",
+  "description": "Greenland Melt Season End from 4D Greenland",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-7bbcfb29-3260-466d-bdb6-da517019edd9/2021/ad17585d-4834-4775-b51d-89f39361ab94.json",
+      "type": "application/json",
+      "datetime": "2021-01-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-7bbcfb29-3260-466d-bdb6-da517019edd9/2020/d59d93f4-4c1f-41a5-952c-0e1275c7f1ea.json",
+      "type": "application/json",
+      "datetime": "2020-01-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-7bbcfb29-3260-466d-bdb6-da517019edd9/2019/64269575-5f93-425f-b68c-d9e0abe6ca5e.json",
+      "type": "application/json",
+      "datetime": "2019-01-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-7bbcfb29-3260-466d-bdb6-da517019edd9/2018/8aae92d0-a1e2-460d-a1d5-104f93218811.json",
+      "type": "application/json",
+      "datetime": "2018-01-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-7bbcfb29-3260-466d-bdb6-da517019edd9/2017/aca6fa05-3a8b-434e-a714-14ab69dd561f.json",
+      "type": "application/json",
+      "datetime": "2017-01-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-7bbcfb29-3260-466d-bdb6-da517019edd9/2016/f55981ec-4eb0-4a28-a80d-4c64e21388e3.json",
+      "type": "application/json",
+      "datetime": "2016-01-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-7bbcfb29-3260-466d-bdb6-da517019edd9/2015/c9c15dda-850f-4c60-a569-583c8b0645f6.json",
+      "type": "application/json",
+      "datetime": "2015-01-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-7bbcfb29-3260-466d-bdb6-da517019edd9/2014/9ef88129-6cb2-46da-973c-5248b87e5d7b.json",
+      "type": "application/json",
+      "datetime": "2014-01-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-7bbcfb29-3260-466d-bdb6-da517019edd9/2013/3bbdd941-b771-4cf1-8ca2-e02c192db685.json",
+      "type": "application/json",
+      "datetime": "2013-01-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-7bbcfb29-3260-466d-bdb6-da517019edd9/2012/4c58c10d-644f-46d7-87ee-6ad7e90401bd.json",
+      "type": "application/json",
+      "datetime": "2012-01-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-7bbcfb29-3260-466d-bdb6-da517019edd9/2011/3d1f6c8a-547c-4339-bac9-31501b99cf4f.json",
+      "type": "application/json",
+      "datetime": "2011-01-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-7bbcfb29-3260-466d-bdb6-da517019edd9/2010/54127c1d-80da-4131-89ee-abc2d0f50bd3.json",
+      "type": "application/json",
+      "datetime": "2010-01-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-7bbcfb29-3260-466d-bdb6-da517019edd9/2009/c5cb57c9-5d3a-4322-8b29-dbe217995603.json",
+      "type": "application/json",
+      "datetime": "2009-01-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-7bbcfb29-3260-466d-bdb6-da517019edd9/2008/ba2741e2-fb44-4d6a-8606-8de371da787d.json",
+      "type": "application/json",
+      "datetime": "2008-01-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-7bbcfb29-3260-466d-bdb6-da517019edd9/2007/46dd97a9-433e-4609-b154-ef64c9c8f2ad.json",
+      "type": "application/json",
+      "datetime": "2007-01-01"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Greenland Melt Season End"
+    }
+  ],
+  "subtitle": "Greenland Melt Season End from 4D Greenland",
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "ASCAT"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "4D_Greenland_Melt_Season_End",
+  "endpointtype": "Sentinel Hub_byoc",
+  "title": "Greenland Melt Season End",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -89.3145177846944,
+          58.787272841702126,
+          7.554586574322073,
+          83.94675630823953
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2007-01-01T00:00:00Z",
+          "2021-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Sentinel-Hub"
+    }
+  ],
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main//4D_Greenland_Melt_Season_End/legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main//4D_Greenland_Melt_Season_End/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
