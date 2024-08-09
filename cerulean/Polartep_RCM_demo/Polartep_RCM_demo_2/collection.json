@@ -1,0 +1,170 @@
+{
+  "type": "Collection",
+  "id": "Polartep_RCM_demo_2",
+  "stac_version": "1.0.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./Polartep_RCM_demo_2/2021/2021-05-01.json",
+      "type": "application/json",
+      "datetime": "2021-05-01"
+    },
+    {
+      "rel": "item",
+      "href": "./Polartep_RCM_demo_2/2021/2021-05-04.json",
+      "type": "application/json",
+      "datetime": "2021-05-04"
+    },
+    {
+      "rel": "item",
+      "href": "./Polartep_RCM_demo_2/2021/2021-05-05.json",
+      "type": "application/json",
+      "datetime": "2021-05-05"
+    },
+    {
+      "rel": "item",
+      "href": "./Polartep_RCM_demo_2/2021/2021-05-06.json",
+      "type": "application/json",
+      "datetime": "2021-05-06"
+    },
+    {
+      "rel": "item",
+      "href": "./Polartep_RCM_demo_2/2021/2021-05-08.json",
+      "type": "application/json",
+      "datetime": "2021-05-08"
+    },
+    {
+      "rel": "item",
+      "href": "./Polartep_RCM_demo_2/2021/2021-05-09.json",
+      "type": "application/json",
+      "datetime": "2021-05-09"
+    },
+    {
+      "rel": "item",
+      "href": "./Polartep_RCM_demo_2/2021/2021-05-10.json",
+      "type": "application/json",
+      "datetime": "2021-05-10"
+    },
+    {
+      "rel": "item",
+      "href": "./Polartep_RCM_demo_2/2021/2021-05-11.json",
+      "type": "application/json",
+      "datetime": "2021-05-11"
+    },
+    {
+      "rel": "item",
+      "href": "./Polartep_RCM_demo_2/2021/2021-05-12.json",
+      "type": "application/json",
+      "datetime": "2021-05-12"
+    },
+    {
+      "rel": "item",
+      "href": "./Polartep_RCM_demo_2/2021/2021-05-13.json",
+      "type": "application/json",
+      "datetime": "2021-05-13"
+    },
+    {
+      "rel": "item",
+      "href": "./Polartep_RCM_demo_2/2021/2021-05-17.json",
+      "type": "application/json",
+      "datetime": "2021-05-17"
+    },
+    {
+      "rel": "item",
+      "href": "./Polartep_RCM_demo_2/2021/2021-05-18.json",
+      "type": "application/json",
+      "datetime": "2021-05-18"
+    },
+    {
+      "rel": "item",
+      "href": "./Polartep_RCM_demo_2/2021/2021-05-22.json",
+      "type": "application/json",
+      "datetime": "2021-05-22"
+    },
+    {
+      "rel": "item",
+      "href": "./Polartep_RCM_demo_2/2021/2021-05-23.json",
+      "type": "application/json",
+      "datetime": "2021-05-23"
+    },
+    {
+      "rel": "item",
+      "href": "./Polartep_RCM_demo_2/2021/2021-05-25.json",
+      "type": "application/json",
+      "datetime": "2021-05-25"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/64c73998-542d-4021-9385-a127e913d081",
+      "type": "image/jpeg",
+      "title": "Polartep_RCM_demo_2",
+      "wms:layers": [
+        "1-HH-LINEAR-SIGMA0"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Radarsat Constellation Mission Sigma0"
+    }
+  ],
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "RADARSAT"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "CSA"
+  ],
+  "subcode": "Polartep_RCM_demo_2",
+  "endpointtype": "WMS_OverwriteTimes",
+  "title": "Radarsat Constellation Mission Sigma0",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -112,
+          45,
+          -11,
+          75
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-05-01T00:00:00Z",
+          "2021-05-25T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Polartep_RCM_demo/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
