@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "Polartep_RCM_demo",
+  "id": "Polartep_DN_s1_morphed_demo",
   "stac_version": "1.0.0",
   "description": "",
   "links": [
@@ -12,12 +12,12 @@
     },
     {
       "rel": "child",
-      "href": "./Polartep_RCM_demo_1/collection.json",
+      "href": "./Polartep_DN_s1_morphed_demo/collection.json",
       "type": "application/json",
-      "title": "RCM HH HV RATIO RGB SIGMA0 Visualisation",
-      "endpointtype": "WMS_OverwriteTimes",
-      "code": "Polartep_RCM_demo_1",
-      "id": "Polartep_RCM_demo_1",
+      "title": "Morphed Sentinel-1 demo",
+      "endpointtype": "COG source",
+      "code": "Polartep_DN_s1_morphed_demo",
+      "id": "Polartep_DN_s1_morphed_demo",
       "themes": [
         "cryosphere"
       ],
@@ -25,65 +25,26 @@
         "placeholder"
       ],
       "satellite": [
-        "RADARSAT"
+        "placeholder"
       ],
       "sensor": [
         "placeholder"
       ],
       "agency": [
-        "CSA"
+        "ESA"
       ],
-      "subcode": "Polartep_RCM_demo_1"
-    },
-    {
-      "rel": "child",
-      "href": "./Polartep_RCM_demo_2/collection.json",
-      "type": "application/json",
-      "title": "Radarsat Constellation Mission Sigma0",
-      "endpointtype": "WMS_OverwriteTimes",
-      "code": "Polartep_RCM_demo_2",
-      "id": "Polartep_RCM_demo_2",
-      "themes": [
-        "cryosphere"
-      ],
-      "tags": [
-        "placeholder"
-      ],
-      "satellite": [
-        "RADARSAT"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
-      "agency": [
-        "CSA"
-      ],
-      "subcode": "Polartep_RCM_demo_2"
-    },
-    {
-      "rel": "child",
-      "href": "./Polartep_RCM_demo_3/collection.json",
-      "type": "application/json",
-      "title": "RCM HV Linear Sigma0 Visualisation",
-      "endpointtype": "WMS_OverwriteTimes",
-      "code": "Polartep_RCM_demo_3",
-      "id": "Polartep_RCM_demo_3",
-      "themes": [
-        "cryosphere"
-      ],
-      "tags": [
-        "placeholder"
-      ],
-      "satellite": [
-        "RADARSAT"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
-      "agency": [
-        "CSA"
-      ],
-      "subcode": "Polartep_RCM_demo_3"
+      "subcode": "Polartep_DN_s1_morphed_demo",
+      "collection_group": "Polar TEP demo datasets",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -3314693.24,
+          -3314693.24,
+          3314693.24,
+          3314693.24
+        ]
+      }
     },
     {
       "rel": "xyz",
@@ -157,43 +118,56 @@
       "title": "Cerulean GTIF project catalog"
     }
   ],
-  "subcode": "Polartep_RCM_demo",
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "Polartep_DN_s1_morphed_demo",
   "collection_group": "Polar TEP demo datasets",
-  "title": "Radarsat Constellation Mission Sigma0",
+  "eodash:mapProjection": {
+    "name": "EPSG:3413",
+    "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
+    "extent": [
+      -3314693.24,
+      -3314693.24,
+      3314693.24,
+      3314693.24
+    ]
+  },
+  "title": "Morphed Sentinel-1 demo",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -112,
-          45,
-          -11,
-          75
+          -142,
+          65,
+          -110,
+          85
         ],
         [
-          -112,
-          45,
-          -11,
-          75
-        ],
-        [
-          -112,
-          45,
-          -11,
-          75
-        ],
-        [
-          -112,
-          45,
-          -11,
-          75
+          -142,
+          65,
+          -110,
+          85
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2021-05-01T00:00:00Z",
-          "2021-05-25T00:00:00Z"
+          "2024-08-31T00:00:00Z",
+          "2024-09-02T00:00:00Z"
         ]
       ]
     }
@@ -201,15 +175,13 @@
   "license": "proprietary",
   "summaries": {
     "subcode": [
-      "Polartep_RCM_demo_1",
-      "Polartep_RCM_demo_2",
-      "Polartep_RCM_demo_3"
+      "Polartep_DN_s1_morphed_demo"
     ],
     "themes": [
       "cryosphere"
     ],
     "satellite": [
-      "RADARSAT"
+      "placeholder"
     ],
     "sensor": [
       "placeholder"
