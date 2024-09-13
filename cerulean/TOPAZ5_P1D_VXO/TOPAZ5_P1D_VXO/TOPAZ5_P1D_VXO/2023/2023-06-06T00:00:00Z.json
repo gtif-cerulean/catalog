@@ -1,0 +1,55 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "2023-06-06T00:00:00Z",
+  "properties": {
+    "datetime": "2023-06-06T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/ARCTIC_ANALYSISFORECAST_PHY_002_001/cmems_mod_arc_phy_anfc_6km_detided_P1D-m_202311",
+      "type": "image/png",
+      "title": "wmts capabilities",
+      "wmts:layer": "ARCTIC_ANALYSISFORECAST_PHY_002_001/cmems_mod_arc_phy_anfc_6km_detided_P1D-m_202311/vxo",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "time": "2023-06-06T00:00:00Z",
+        "elevation": 0,
+        "style": "cmap:delta,range:-0.3/0.3,noClamp"
+      }
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Eastward sea water velocity TOPAZ5"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Eastward sea water velocity TOPAZ5"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    -180.0,
+    50.0,
+    179.92000000005623,
+    90.0
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.1.0/schema.json"
+  ],
+  "collection": "TOPAZ5_P1D_VXO"
+}

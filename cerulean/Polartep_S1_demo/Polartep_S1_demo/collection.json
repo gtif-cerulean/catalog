@@ -1,0 +1,122 @@
+{
+  "type": "Collection",
+  "id": "Polartep_S1_demo",
+  "stac_version": "1.0.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./Polartep_S1_demo/2023/2023-05-24T04:55:52Z.json",
+      "type": "application/json",
+      "datetime": "2023-05-24T04:55:52Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/s1a-iw-grd-vh-20230524t045552-20230524t045619-048671-05da94-002_COG.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./Polartep_S1_demo/2023/2023-05-24T17:52:21Z.json",
+      "type": "application/json",
+      "datetime": "2023-05-24T17:52:21Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/s1a-iw-grd-vv-20230524t175221-20230524t175248-048679-05dad0-001_COG.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./Polartep_S1_demo/2023/2023-05-24T17:52:21Z.json",
+      "type": "application/json",
+      "datetime": "2023-05-24T17:52:21Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/s1a-iw-grd-vh-20230524t175221-20230524t175248-048679-05dad0-002_COG.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./Polartep_S1_demo/2023/2023-05-24T17:53:20Z.json",
+      "type": "application/json",
+      "datetime": "2023-05-24T17:53:20Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/s1a-iw-grd-vv-20230524t175320-20230524t175344-048679-05dad0-001_COG.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./Polartep_S1_demo/2023/2023-05-24T17:53:20Z.json",
+      "type": "application/json",
+      "datetime": "2023-05-24T17:53:20Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/s1a-iw-grd-vh-20230524t175320-20230524t175344-048679-05dad0-002_COG.tiff"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Polartep_S1_demo/cog_style.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "Sentinel-1 IW VH 20230524T17:53:20Z"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1"
+    }
+  ],
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "Sentinel-1"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "Polartep_S1_demo",
+  "collection_group": "Polar TEP demo datasets",
+  "endpointtype": "COG source",
+  "title": "Sentinel 1",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -30.15,
+          50.1,
+          30,
+          70.3
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-05-24T04:55:52Z",
+          "2023-05-24T17:53:20Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Polartep_S1_demo/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

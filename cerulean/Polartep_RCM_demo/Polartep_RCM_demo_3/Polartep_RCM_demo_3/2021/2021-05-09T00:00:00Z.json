@@ -1,0 +1,55 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "2021-05-09T00:00:00Z",
+  "properties": {
+    "datetime": "2021-05-09T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/1d268596-b3d5-4dbc-9c9e-8e544de29d3b",
+      "type": "image/jpeg",
+      "title": "Polartep_RCM_demo_3",
+      "wms:layers": [
+        "3-HV-LINEAR-SIGMA0"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2021-05-09T00:00:00Z"
+      }
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "RCM HV Linear Sigma0 Visualisation"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "RCM HV Linear Sigma0 Visualisation"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    -112,
+    45,
+    -11,
+    75
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.1.0/schema.json"
+  ],
+  "collection": "Polartep_RCM_demo_3"
+}

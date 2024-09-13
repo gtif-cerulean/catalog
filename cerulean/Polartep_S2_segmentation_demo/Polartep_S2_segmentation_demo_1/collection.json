@@ -1,0 +1,77 @@
+{
+  "type": "Collection",
+  "id": "Polartep_S2_segmentation_demo_1",
+  "stac_version": "1.0.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./Polartep_S2_segmentation_demo_1/2024/2024-07-15T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-07-15T00:00:00Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/input-cog.tif"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Binary S2 Segmentation results"
+    }
+  ],
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "Copernicus"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "Polartep_S2_segmentation_demo_1",
+  "sensor": [
+    "MSI"
+  ],
+  "satellite": [
+    "Sentinel-2"
+  ],
+  "endpointtype": "COG source",
+  "title": "Binary S2 Segmentation results - source image",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -123.4,
+          49.1,
+          -123.2,
+          49.25
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-07-15T00:00:00Z",
+          "2024-07-15T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Polartep_S2_segmentation_demo/Polartep_S2_segmentation.jpeg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
