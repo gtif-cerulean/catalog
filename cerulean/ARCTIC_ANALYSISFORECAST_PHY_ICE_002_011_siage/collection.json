@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_siage/collection.json",
       "type": "application/json",
-      "title": "Arctic Ocean Sea Ice Analysis and Forecast",
+      "title": "Age of Sea Ice PHY_ICE_002_011_P1m",
       "endpointtype": "marinedatastore_WMTSCapabilities",
       "code": "ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_siage",
       "id": "ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_siage",
@@ -152,7 +152,7 @@
       6422528
     ]
   },
-  "title": "Arctic Ocean Sea Ice Analysis and Forecast",
+  "title": "Age of Sea Ice PHY_ICE_002_011_P1m",
   "extent": {
     "spatial": {
       "bbox": [

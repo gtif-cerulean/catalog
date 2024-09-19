@@ -387,14 +387,14 @@
       ],
       "wmts:dimensions": {
         "elevation": 0,
-        "style": "cmap:viridis,range:0.1/1800,noClamp"
+        "style": "cmap:viridis,range:1/1800,noClamp"
       }
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Arctic Ocean Sea Ice Analysis and Forecast"
+      "title": "Age of Sea Ice PHY_ICE_002_011_P1m"
     }
   ],
   "sci:citation": "Arctic Ocean Physics Analysis and Forecast; ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011; E.U. Copernicus Marine Service Information (CMEMS), Marine Data Store (MDS).",
@@ -433,7 +433,7 @@
   },
   "proj:epsg": 4326,
   "endpointtype": "marinedatastore_WMTSCapabilities",
-  "title": "Arctic Ocean Sea Ice Analysis and Forecast",
+  "title": "Age of Sea Ice PHY_ICE_002_011_P1m",
   "extent": {
     "spatial": {
       "bbox": [

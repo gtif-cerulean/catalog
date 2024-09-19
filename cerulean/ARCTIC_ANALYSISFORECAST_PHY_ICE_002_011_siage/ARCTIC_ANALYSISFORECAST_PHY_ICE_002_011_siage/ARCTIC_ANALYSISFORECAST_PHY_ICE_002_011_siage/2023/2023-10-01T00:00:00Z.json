@@ -19,7 +19,7 @@
       "wmts:dimensions": {
         "time": "2023-10-01T00:00:00Z",
         "elevation": 0,
-        "style": "cmap:viridis,range:0.1/1800,noClamp"
+        "style": "cmap:viridis,range:1/1800,noClamp"
       }
     },
     {
@@ -32,13 +32,13 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Arctic Ocean Sea Ice Analysis and Forecast"
+      "title": "Age of Sea Ice PHY_ICE_002_011_P1m"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Arctic Ocean Sea Ice Analysis and Forecast"
+      "title": "Age of Sea Ice PHY_ICE_002_011_P1m"
     }
   ],
   "assets": {},

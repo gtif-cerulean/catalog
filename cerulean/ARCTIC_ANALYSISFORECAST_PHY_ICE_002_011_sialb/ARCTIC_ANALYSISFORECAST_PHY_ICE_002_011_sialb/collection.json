@@ -1,0 +1,477 @@
+{
+  "type": "Collection",
+  "id": "ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb",
+  "stac_version": "1.0.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2019/2019-08-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2019-08-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2019/2019-09-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2019-09-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2019/2019-10-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2019-10-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2019/2019-11-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2019-11-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2019/2019-12-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2019-12-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2020/2020-01-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2020-01-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2020/2020-02-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2020-02-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2020/2020-03-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2020-03-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2020/2020-04-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2020-04-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2020/2020-05-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2020-05-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2020/2020-06-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2020-06-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2020/2020-07-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2020-07-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2020/2020-08-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2020-08-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2020/2020-09-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2020-09-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2020/2020-10-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2020-10-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2020/2020-11-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2020-11-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2020/2020-12-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2020-12-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2021/2021-01-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2021-01-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2021/2021-02-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2021-02-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2021/2021-03-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2021-03-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2021/2021-04-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2021-04-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2021/2021-05-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2021-05-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2021/2021-06-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2021-06-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2021/2021-07-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2021-07-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2021/2021-08-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2021-08-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2021/2021-09-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2021-09-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2021/2021-10-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2021-10-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2021/2021-11-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2021-11-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2021/2021-12-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2021-12-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2022/2022-01-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2022-01-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2022/2022-02-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2022-02-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2022/2022-03-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2022-03-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2022/2022-04-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2022-04-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2022/2022-05-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2022-05-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2022/2022-06-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2022-06-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2022/2022-07-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2022-07-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2022/2022-08-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2022-08-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2022/2022-09-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2022-09-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2022/2022-10-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2022-10-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2022/2022-11-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2022-11-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2022/2022-12-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2022-12-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2023/2023-01-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2023-01-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2023/2023-02-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2023-02-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2023/2023-03-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2023-03-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2023/2023-04-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2023-04-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2023/2023-05-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2023-05-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2023/2023-06-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2023-06-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2023/2023-07-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2023-07-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2023/2023-08-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2023-08-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2023/2023-09-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2023-09-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2023/2023-10-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2023-10-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2023/2023-11-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2023-11-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2023/2023-12-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2023-12-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2024/2024-01-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-01-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2024/2024-02-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-02-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2024/2024-03-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-03-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2024/2024-04-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-04-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2024/2024-05-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-05-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2024/2024-06-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-06-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2024/2024-07-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-07-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/2024/2024-08-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-08-01T00:00:00Z"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011/cmems_mod_arc_phy_anfc_nextsim_P1M-m_202311",
+      "type": "image/png",
+      "title": "wmts capabilities",
+      "wmts:layer": "ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011/cmems_mod_arc_phy_anfc_nextsim_P1M-m_202311/sialb",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "elevation": 0,
+        "style": "cmap:viridis,range:0/1,noClamp"
+      }
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Albedo PHY_ICE_002_011_P1m"
+    }
+  ],
+  "sci:citation": "Arctic Ocean Physics Analysis and Forecast; ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011; E.U. Copernicus Marine Service Information (CMEMS), Marine Data Store (MDS).",
+  "sci:publications": [
+    {
+      "citation": "Williams, T., Korosov, A., Rampal, P., and \u00d3lason, E.: Presentation and evaluation of the Arctic sea ice forecasting system neXtSIM-F, The Cryosphere, 15, 3207\u20133227, https://doi.org/10.5194/tc-15-3207-2021, 2021.",
+      "doi": "10.48670/moi-00004"
+    }
+  ],
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "model"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "CMEMS"
+  ],
+  "subcode": "ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb",
+  "collection_group": "Arctic Ocean Sea Ice Analysis and Forecast",
+  "eodash:mapProjection": {
+    "name": "ORTHO:680500",
+    "def": "+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+    "extent": [
+      -6422528,
+      -6422528,
+      6422528,
+      6422528
+    ]
+  },
+  "proj:epsg": 4326,
+  "endpointtype": "marinedatastore_WMTSCapabilities",
+  "title": "Sea Ice Albedo PHY_ICE_002_011_P1m",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          52.6,
+          179.9599999999284,
+          89.99999999999787
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-08-01T00:00:00Z",
+          "2024-08-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "E.U. Copernicus Marine Service Information (CMEMS)",
+      "description": "The Copernicus Marine Service (or Copernicus Marine Environment Monitoring Service) is the marine component of the Copernicus Programme of the European Union. It provides free, regular and systematic authoritative information on the state of the Blue (physical), White (sea ice) and Green (biogeochemical) ocean,  on a global and regional scale. It is funded by the European Commission (EC) and implemented by Mercator Ocean International. It is designed to serve EU policies and International legal Commitments related to Ocean Governance, to cater for the needs of society at large for global ocean knowledge and to boost the Blue Economy across all maritime sectors by providing free-of-charge state-of-the-art ocean data and information.",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://data.marine.copernicus.eu/"
+    }
+  ],
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}
