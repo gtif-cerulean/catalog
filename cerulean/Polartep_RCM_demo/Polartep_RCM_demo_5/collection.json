@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "Polartep_RCM_demo_1",
+  "id": "Polartep_RCM_demo_5",
   "stac_version": "1.0.0",
   "description": "",
   "links": [
@@ -86,9 +86,9 @@
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/1d268596-b3d5-4dbc-9c9e-8e544de29d3b",
       "type": "image/png",
-      "title": "Polartep_RCM_demo_1",
+      "title": "Polartep_RCM_demo_5",
       "wms:layers": [
-        "1-HH-LINEAR-SIGMA0"
+        "5-HH-HV-RATIO-RGB-SIGMA0"
       ],
       "role": [
         "data"
@@ -116,9 +116,9 @@
   "agency": [
     "CSA"
   ],
-  "subcode": "Polartep_RCM_demo_1",
+  "subcode": "Polartep_RCM_demo_5",
   "endpointtype": "Sentinel Hub_byoc",
-  "title": "RCM HH Linear Sigma0",
+  "title": "RCM HH HV RATIO RGB SIGMA0",
   "extent": {
     "spatial": {
       "bbox": [

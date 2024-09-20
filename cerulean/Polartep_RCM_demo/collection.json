@@ -12,10 +12,35 @@
     },
     {
       "rel": "child",
+      "href": "./Polartep_RCM_demo_5/collection.json",
+      "type": "application/json",
+      "title": "RCM HH HV RATIO RGB SIGMA0",
+      "endpointtype": "Sentinel Hub_byoc",
+      "code": "Polartep_RCM_demo_5",
+      "id": "Polartep_RCM_demo_5",
+      "themes": [
+        "cryosphere"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "RADARSAT"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "CSA"
+      ],
+      "subcode": "Polartep_RCM_demo_5"
+    },
+    {
+      "rel": "child",
       "href": "./Polartep_RCM_demo_1/collection.json",
       "type": "application/json",
-      "title": "RCM HH HV RATIO RGB SIGMA0 Visualisation",
-      "endpointtype": "WMS_OverwriteTimes",
+      "title": "RCM HH Linear Sigma0",
+      "endpointtype": "Sentinel Hub_byoc",
       "code": "Polartep_RCM_demo_1",
       "id": "Polartep_RCM_demo_1",
       "themes": [
@@ -39,8 +64,8 @@
       "rel": "child",
       "href": "./Polartep_RCM_demo_2/collection.json",
       "type": "application/json",
-      "title": "Radarsat Constellation Mission Sigma0",
-      "endpointtype": "WMS_OverwriteTimes",
+      "title": "RCM HH Decibel Sigma0",
+      "endpointtype": "Sentinel Hub_byoc",
       "code": "Polartep_RCM_demo_2",
       "id": "Polartep_RCM_demo_2",
       "themes": [
@@ -64,8 +89,8 @@
       "rel": "child",
       "href": "./Polartep_RCM_demo_3/collection.json",
       "type": "application/json",
-      "title": "RCM HV Linear Sigma0 Visualisation",
-      "endpointtype": "WMS_OverwriteTimes",
+      "title": "RCM HV Linear Sigma0",
+      "endpointtype": "Sentinel Hub_byoc",
       "code": "Polartep_RCM_demo_3",
       "id": "Polartep_RCM_demo_3",
       "themes": [
@@ -84,6 +109,31 @@
         "CSA"
       ],
       "subcode": "Polartep_RCM_demo_3"
+    },
+    {
+      "rel": "child",
+      "href": "./Polartep_RCM_demo_4/collection.json",
+      "type": "application/json",
+      "title": "RCM HV Decibel Sigma0",
+      "endpointtype": "Sentinel Hub_byoc",
+      "code": "Polartep_RCM_demo_4",
+      "id": "Polartep_RCM_demo_4",
+      "themes": [
+        "cryosphere"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "RADARSAT"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "CSA"
+      ],
+      "subcode": "Polartep_RCM_demo_4"
     },
     {
       "rel": "xyz",
@@ -164,36 +214,48 @@
     "spatial": {
       "bbox": [
         [
-          -112,
-          45,
-          -11,
-          75
+          -55.7885732737854,
+          58.300365789044726,
+          -36.263770658073334,
+          64.51893865201636
         ],
         [
-          -112,
-          45,
-          -11,
-          75
+          -55.7885732737854,
+          58.300365789044726,
+          -36.263770658073334,
+          64.51893865201636
         ],
         [
-          -112,
-          45,
-          -11,
-          75
+          -55.7885732737854,
+          58.300365789044726,
+          -36.263770658073334,
+          64.51893865201636
         ],
         [
-          -112,
-          45,
-          -11,
-          75
+          -55.7885732737854,
+          58.300365789044726,
+          -36.263770658073334,
+          64.51893865201636
+        ],
+        [
+          -55.7885732737854,
+          58.300365789044726,
+          -36.263770658073334,
+          64.51893865201636
+        ],
+        [
+          -55.7885732737854,
+          58.300365789044726,
+          -36.263770658073334,
+          64.51893865201636
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2021-05-01T00:00:00Z",
-          "2021-05-25T00:00:00Z"
+          "2021-05-01T20:30:24.696000Z",
+          "2024-09-17T20:55:40.740000Z"
         ]
       ]
     }
@@ -202,8 +264,10 @@
   "summaries": {
     "subcode": [
       "Polartep_RCM_demo_3",
+      "Polartep_RCM_demo_1",
       "Polartep_RCM_demo_2",
-      "Polartep_RCM_demo_1"
+      "Polartep_RCM_demo_5",
+      "Polartep_RCM_demo_4"
     ],
     "themes": [
       "cryosphere"

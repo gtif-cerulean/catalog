@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "0ecc04c3-1fa9-4af5-ba6e-44037e7ebd07",
+  "properties": {
+    "datetime": "2024-06-12T20:47:20.283000Z",
+    "proj:epsg": 84,
+    "proj:bbox": [
+      -47.69403483806295,
+      59.76678235587506,
+      -40.48864794414027,
+      62.21469150510075
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC::CRS84"
+        }
+      },
+      "coordinates": [
+        [
+          [
+            -47.69403483806295,
+            59.76678235587506
+          ],
+          [
+            -40.48864794414027,
+            59.76678235587506
+          ],
+          [
+            -40.48864794414027,
+            62.21469150510075
+          ],
+          [
+            -47.69403483806295,
+            62.21469150510075
+          ],
+          [
+            -47.69403483806295,
+            59.76678235587506
+          ]
+        ]
+      ]
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC::CRS84"
+      }
+    },
+    "coordinates": [
+      [
+        [
+          -47.69403483806295,
+          59.76678235587506
+        ],
+        [
+          -40.48864794414027,
+          59.76678235587506
+        ],
+        [
+          -40.48864794414027,
+          62.21469150510075
+        ],
+        [
+          -47.69403483806295,
+          62.21469150510075
+        ],
+        [
+          -47.69403483806295,
+          59.76678235587506
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "RCM HH Decibel Sigma0"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/1d268596-b3d5-4dbc-9c9e-8e544de29d3b",
+      "type": "image/png",
+      "title": "Polartep_RCM_demo_2",
+      "wms:layers": [
+        "2-HH-DECIBEL-SIGMA0"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2024-06-12T20:47:20Z/2024-06-13T20:47:20Z"
+      }
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "RCM HH Decibel Sigma0"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    -47.69403483806295,
+    59.76678235587506,
+    -40.48864794414027,
+    62.21469150510075
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+  ],
+  "collection": "byoc-c1c45264-d369-45b2-9d78-e9955580baa5"
+}
