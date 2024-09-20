@@ -387,7 +387,7 @@
       ],
       "wmts:dimensions": {
         "elevation": 0,
-        "style": "cmap:speed,range:0/0.3,noClamp,vectorStyle:vector"
+        "style": "cmap:speed,range:0/0.5,noClamp,vectorStyle:solidAndVector"
       }
     },
     {
@@ -467,14 +467,14 @@
   ],
   "assets": {
     "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/TOPAZ4_P1D_VXSI/cm_legend.png",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/TOPAZ4_P1D_VXSI/cm_legend.png",
       "type": "image/png",
       "roles": [
         "metadata"
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/TOPAZ4_P1D_VXSI/thumbnail.png",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/TOPAZ4_P1D_VXSI/thumbnail.png",
       "type": "image/png",
       "roles": [
         "thumbnail"

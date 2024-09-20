@@ -19,7 +19,7 @@
       "wmts:dimensions": {
         "time": "2021-11-01T00:00:00Z",
         "elevation": 0,
-        "style": "cmap:speed,range:0/0.3,noClamp,vectorStyle:vector"
+        "style": "cmap:speed,range:0/0.5,noClamp,vectorStyle:solidAndVector"
       }
     },
     {
