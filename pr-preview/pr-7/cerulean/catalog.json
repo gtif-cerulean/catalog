@@ -1,0 +1,195 @@
+{
+  "type": "Catalog",
+  "id": "cerulean",
+  "stac_version": "1.0.0",
+  "description": "Catalog providing description to available datasets to the Cerulean GTIF project",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ4_P1D_VSI_vector/collection.json",
+      "type": "application/json",
+      "title": "Sea ice velocity vectors TOPAZ4",
+      "code": "TOPAZ4_P1D_VSI_vector",
+      "id": "TOPAZ4_P1D_VSI_vector",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ4_P1D_VSI_vector",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "TOPAZ4b - Arctic Ocean Physics Reanalysis",
+      "eodash:mapProjection": {
+        "name": "ORTHO:680500",
+        "def": "+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+        "extent": [
+          -6422528,
+          -6422528,
+          6422528,
+          6422528
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ4_P1D_VO_vector/collection.json",
+      "type": "application/json",
+      "title": "Sea water velocity vectors TOPAZ4",
+      "code": "TOPAZ4_P1D_VO_vector",
+      "id": "TOPAZ4_P1D_VO_vector",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ4_P1D_VO_vector",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "TOPAZ4b - Arctic Ocean Physics Reanalysis",
+      "eodash:mapProjection": {
+        "name": "ORTHO:680500",
+        "def": "+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+        "extent": [
+          -6422528,
+          -6422528,
+          6422528,
+          6422528
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ5_P1D_VO_vector/collection.json",
+      "type": "application/json",
+      "title": "Sea water velocity vectors TOPAZ5",
+      "code": "TOPAZ5_P1D_VO_vector",
+      "id": "TOPAZ5_P1D_VO_vector",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ5_P1D_VO_vector",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "TOPAZ5 - Arctic Ocean Physics Analysis and Forecast",
+      "eodash:mapProjection": {
+        "name": "ORTHO:680500",
+        "def": "+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+        "extent": [
+          -6422528,
+          -6422528,
+          6422528,
+          6422528
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ5_P1D_VSI_vector/collection.json",
+      "type": "application/json",
+      "title": "Sea ice velocity vectors TOPAZ5",
+      "code": "TOPAZ5_P1D_VSI_vector",
+      "id": "TOPAZ5_P1D_VSI_vector",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ5_P1D_VSI_vector",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "TOPAZ5 - Arctic Ocean Physics Analysis and Forecast",
+      "eodash:mapProjection": {
+        "name": "ORTHO:680500",
+        "def": "+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+        "extent": [
+          -6422528,
+          -6422528,
+          6422528,
+          6422528
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_vsi_vector/collection.json",
+      "type": "application/json",
+      "title": "Sea ice velocity vector PHY_ICE_002_011_P1m",
+      "code": "ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_vsi_vector",
+      "id": "ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_vsi_vector",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_vsi_vector",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Arctic Ocean Sea Ice Analysis and Forecast",
+      "eodash:mapProjection": {
+        "name": "ORTHO:680500",
+        "def": "+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+        "extent": [
+          -6422528,
+          -6422528,
+          6422528,
+          6422528
+        ]
+      }
+    },
+    {
+      "rel": "self",
+      "href": "https://gtif-cerulean.github.io/catalog/cerulean/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "Cerulean GTIF project catalog"
+}
