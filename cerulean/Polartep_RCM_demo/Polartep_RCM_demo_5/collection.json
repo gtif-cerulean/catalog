@@ -142,7 +142,7 @@
   "license": "proprietary",
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Polartep_RCM_demo/thumbnail.png",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_RCM_demo/thumbnail.png",
       "type": "image/png",
       "roles": [
         "thumbnail"

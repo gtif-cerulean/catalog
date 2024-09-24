@@ -177,14 +177,14 @@
   ],
   "assets": {
     "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/4D_Greenland_Melt_Season_End/legend.png",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/4D_Greenland_Melt_Season_End/legend.png",
       "type": "image/png",
       "roles": [
         "metadata"
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/4D_Greenland_Melt_Season_End/thumbnail.png",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/4D_Greenland_Melt_Season_End/thumbnail.png",
       "type": "image/png",
       "roles": [
         "thumbnail"

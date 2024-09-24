@@ -44,7 +44,7 @@
   "links": [
     {
       "rel": "style",
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Polartep_S1_demo/cog_style.json",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_S1_demo/cog_style.json",
       "type": "text/cog-styles",
       "asset:keys": [
         "Sentinel-1 IW VH 20230524T17:52:21Z"

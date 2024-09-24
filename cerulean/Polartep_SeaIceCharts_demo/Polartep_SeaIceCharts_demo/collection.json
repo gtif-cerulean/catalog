@@ -39,7 +39,7 @@
     },
     {
       "rel": "style",
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Polartep_SeaIceCharts_demo/style.json",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/style.json",
       "type": "text/vector-styles",
       "asset:keys": [
         "Sea Ice Charts"
@@ -94,14 +94,14 @@
   "license": "proprietary",
   "assets": {
     "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Polartep_SeaIceCharts_demo/legend.png",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/legend.png",
       "type": "image/png",
       "roles": [
         "metadata"
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
       "type": "image/png",
       "roles": [
         "thumbnail"

@@ -206,10 +206,17 @@
   },
   "assets": {
     "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_si_ridge_ratio/cm_legend.png",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_si_ridge_ratio/cm_legend.png",
       "type": "image/png",
       "roles": [
         "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/TOPAZ4_P1D_SIAGE/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }

@@ -4734,7 +4734,7 @@
     },
     {
       "rel": "example",
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS4_wind_10m_v/CDS4_wind_10m_v.js",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/CDS4_wind_10m_v/CDS4_wind_10m_v.js",
       "type": "application/javascript",
       "title": "evalscript",
       "example:language": "JavaScript",
@@ -4810,14 +4810,14 @@
   ],
   "assets": {
     "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS4_wind_10m_v/CDS4_legend.png",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/CDS4_wind_10m_v/CDS4_legend.png",
       "type": "image/png",
       "roles": [
         "metadata"
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS4_wind_10m_v/CDS4_wind_10m_v.png",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/CDS4_wind_10m_v/CDS4_wind_10m_v.png",
       "type": "image/png",
       "roles": [
         "thumbnail"

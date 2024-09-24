@@ -21,7 +21,7 @@
     },
     {
       "rel": "style",
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Polartep_SeaIceDetection_tif_demo/cog_style_SOD.json",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceDetection_tif_demo/cog_style_SOD.json",
       "type": "text/cog-styles",
       "asset:keys": [
         "SOD"
@@ -75,7 +75,7 @@
   "license": "proprietary",
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Polartep_SeaIceDetection_tif_demo/thumbnail.png",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceDetection_tif_demo/thumbnail.png",
       "type": "image/png",
       "roles": [
         "thumbnail"

@@ -10153,14 +10153,14 @@
   ],
   "assets": {
     "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N12_sea_ice_concentration/cm_legend.png",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/N12_sea_ice_concentration/cm_legend.png",
       "type": "image/png",
       "roles": [
         "metadata"
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N12_sea_ice_concentration/Arctic-N12_1.png",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/N12_sea_ice_concentration/Arctic-N12_1.png",
       "type": "image/png",
       "roles": [
         "thumbnail"

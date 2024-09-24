@@ -193,14 +193,14 @@
   },
   "assets": {
     "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS3_wind_10m_u/CDS3_legend.png",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/CDS3_wind_10m_u/CDS3_legend.png",
       "type": "image/png",
       "roles": [
         "metadata"
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS3_wind_10m_u/CDS3_wind_10m_u.png",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/CDS3_wind_10m_u/CDS3_wind_10m_u.png",
       "type": "image/png",
       "roles": [
         "thumbnail"

@@ -21,7 +21,7 @@
     },
     {
       "rel": "style",
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Polartep_S2_segmentation_demo/cog_style_inference.json",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_S2_segmentation_demo/cog_style_inference.json",
       "type": "text/cog-styles",
       "asset:keys": [
         "Snowgrain diameter demo"
@@ -75,14 +75,14 @@
   "license": "proprietary",
   "assets": {
     "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Polartep_S2_segmentation_demo/cm_legend.png",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_S2_segmentation_demo/cm_legend.png",
       "type": "image/png",
       "roles": [
         "metadata"
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Polartep_S2_segmentation_demo/Polartep_S2_segmentation.jpeg",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_S2_segmentation_demo/Polartep_S2_segmentation.jpeg",
       "type": "image/png",
       "roles": [
         "thumbnail"

@@ -8835,14 +8835,14 @@
   ],
   "assets": {
     "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/4D_Greenland_Meltmap/legend.png",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/4D_Greenland_Meltmap/legend.png",
       "type": "image/png",
       "roles": [
         "metadata"
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/4D_Greenland_Meltmap/thumbnail.png",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/4D_Greenland_Meltmap/thumbnail.png",
       "type": "image/png",
       "roles": [
         "thumbnail"

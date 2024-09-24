@@ -193,14 +193,14 @@
   },
   "assets": {
     "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS1_temperature/CDS1_legend.png",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/CDS1_temperature/CDS1_legend.png",
       "type": "image/png",
       "roles": [
         "metadata"
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS1_temperature/CDS1_temperature.png",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/CDS1_temperature/CDS1_temperature.png",
       "type": "image/png",
       "roles": [
         "thumbnail"

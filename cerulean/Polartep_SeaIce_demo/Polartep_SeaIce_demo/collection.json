@@ -21,7 +21,7 @@
     },
     {
       "rel": "style",
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Polartep_SeaIce_demo/style.json",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIce_demo/style.json",
       "type": "text/vector-styles",
       "asset:keys": [
         "Sea Ice Concentration"
@@ -76,7 +76,7 @@
   "license": "proprietary",
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Polartep_SeaIce_demo/thumbnail.png",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIce_demo/thumbnail.png",
       "type": "image/png",
       "roles": [
         "thumbnail"

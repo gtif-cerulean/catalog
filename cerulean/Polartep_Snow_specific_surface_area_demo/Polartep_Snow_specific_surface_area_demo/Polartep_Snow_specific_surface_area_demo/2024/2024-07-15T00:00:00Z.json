@@ -44,7 +44,7 @@
   "links": [
     {
       "rel": "style",
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Polartep_Snow_specific_surface_area_demo/cog_style.json",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_Snow_specific_surface_area_demo/cog_style.json",
       "type": "text/cog-styles",
       "asset:keys": [
         "Snow specific surface area"

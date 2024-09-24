@@ -44,7 +44,7 @@
     },
     {
       "rel": "style",
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Polartep_DN_s1_morphed_demo/cog_style.json",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_DN_s1_morphed_demo/cog_style.json",
       "type": "text/cog-styles",
       "asset:keys": [
         "Harshness map demo prediction 06 hours",
