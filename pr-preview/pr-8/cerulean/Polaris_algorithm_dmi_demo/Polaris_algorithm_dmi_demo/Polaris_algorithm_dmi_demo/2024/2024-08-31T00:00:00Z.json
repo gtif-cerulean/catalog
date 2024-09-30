@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "2024-08-31T00:00:00Z",
+  "properties": {
+    "datetime": "2024-08-31T00:00:00Z"
+  },
+  "geometry": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -50,
+                59
+              ],
+              [
+                -39,
+                59
+              ],
+              [
+                -39,
+                65
+              ],
+              [
+                -50,
+                65
+              ],
+              [
+                -50,
+                59
+              ]
+            ]
+          ]
+        },
+        "properties": {}
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polaris_algorithm_dmi_demo/style.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "Polaris Results 20240831 Cape Farewell"
+      ]
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Polaris Results demo"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Polaris Results demo"
+    }
+  ],
+  "assets": {
+    "Polaris Results 20240831 Cape Farewell": {
+      "href": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/dmi_icecharts_geojson/202408312025_CapeFarewell_RIC-processed.geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    -50,
+    59,
+    -39,
+    65
+  ],
+  "stac_extensions": [],
+  "collection": "Polaris_algorithm_dmi_demo"
+}

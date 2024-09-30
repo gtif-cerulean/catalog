@@ -1,0 +1,149 @@
+{
+  "type": "Collection",
+  "id": "Polaris_algorithm_dmi_demo",
+  "stac_version": "1.0.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./Polaris_algorithm_dmi_demo/2024/2024-08-31T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-08-31T00:00:00Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/dmi_icecharts_geojson/202408312025_CapeFarewell_RIC-processed.geojson"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./Polaris_algorithm_dmi_demo/2024/2024-09-03T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-09-03T00:00:00Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/dmi_icecharts_geojson/202409030910_CapeFarewell_RIC-processed.geojson"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./Polaris_algorithm_dmi_demo/2024/2024-09-06T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-09-06T00:00:00Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/dmi_icecharts_geojson/202409060930_CapeFarewell_RIC-processed.geojson"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./Polaris_algorithm_dmi_demo/2024/2024-09-07T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-09-07T00:00:00Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/dmi_icecharts_geojson/202409072035_CapeFarewell_RIC-processed.geojson"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./Polaris_algorithm_dmi_demo/2024/2024-09-09T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-09-09T00:00:00Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/dmi_icecharts_geojson/202409092020_CapeFarewell_RIC-processed.geojson"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./Polaris_algorithm_dmi_demo/2024/2024-09-13T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-09-13T00:00:00Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/dmi_icecharts_geojson/202409130925_CapeFarewell_RIC-processed.geojson"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./Polaris_algorithm_dmi_demo/2024/2024-09-14T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-09-14T00:00:00Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/dmi_icecharts_geojson/202409140915_CapeFarewell_RIC-processed.geojson"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./Polaris_algorithm_dmi_demo/2024/2024-09-17T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-09-17T00:00:00Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/dmi_icecharts_geojson/202409172100_CapeFarewell_RIC-processed.geojson"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./Polaris_algorithm_dmi_demo/2024/2024-09-21T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-09-21T00:00:00Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/dmi_icecharts_geojson/202409212030_CapeFarewell_RIC-processed.geojson"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./Polaris_algorithm_dmi_demo/2024/2024-09-23T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-09-23T00:00:00Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/dmi_icecharts_geojson/202409232040_CapeFarewell_RIC-processed.geojson"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polaris_algorithm_dmi_demo/style.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "Polaris Results 20240923 Cape Farewell"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Polaris Results demo"
+    }
+  ],
+  "themes": [
+    "cryosphere"
+  ],
+  "agency": [
+    "DMI"
+  ],
+  "subcode": "Polaris_algorithm_dmi_demo",
+  "collection_group": "Polaris sample results",
+  "endpointtype": "GeoJSON source",
+  "title": "Polaris Results demo",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -50,
+          59,
+          -39,
+          65
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-08-31T00:00:00Z",
+          "2024-09-23T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}
