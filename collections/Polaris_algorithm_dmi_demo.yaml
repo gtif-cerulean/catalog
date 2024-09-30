@@ -1,0 +1,57 @@
+Name: Polaris_algorithm_dmi_demo
+Title: Polaris Results demo
+EodashIdentifier: Polaris_algorithm_dmi_demo
+Description: ''
+CollectionGroup: 'Polaris sample results'
+Themes:
+  - cryosphere
+Agency:
+  - DMI
+# Legend: Polartep_SeaIceCharts_demo/legend.png
+# Image: Polartep_SeaIceCharts_demo/thumbnail.png
+Resources:
+  - Name: GeoJSON source
+    Style: Polaris_algorithm_dmi_demo/style.json
+    Bbox: [-50, 59, -39, 65]
+    TimeEntries:
+      - Time: "20240831"
+        Assets:
+          - Identifier: "Polaris Results 20240831 Cape Farewell"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/dmi_icecharts_geojson/202408312025_CapeFarewell_RIC-processed.geojson
+      - Time: "20240903"
+        Assets:
+          - Identifier: "Polaris Results 20240903 Cape Farewell"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/dmi_icecharts_geojson/202409030910_CapeFarewell_RIC-processed.geojson
+      - Time: "20240906"
+        Assets:
+          - Identifier: "Polaris Results 20240906 Cape Farewell"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/dmi_icecharts_geojson/202409060930_CapeFarewell_RIC-processed.geojson
+      - Time: "20240907"
+        Assets:
+          - Identifier: "Polaris Results 20240907 Cape Farewell"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/dmi_icecharts_geojson/202409072035_CapeFarewell_RIC-processed.geojson
+      - Time: "20240909"
+        Assets:
+          - Identifier: "Polaris Results 20240909 Cape Farewell"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/dmi_icecharts_geojson/202409092020_CapeFarewell_RIC-processed.geojson
+      - Time: "20240913"
+        Assets:
+          - Identifier: "Polaris Results 20240913 Cape Farewell"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/dmi_icecharts_geojson/202409130925_CapeFarewell_RIC-processed.geojson
+      - Time: "20240914"
+        Assets:
+          - Identifier: "Polaris Results 20240914 Cape Farewell"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/dmi_icecharts_geojson/202409140915_CapeFarewell_RIC-processed.geojson
+      - Time: "20240917"
+        Assets:
+          - Identifier: "Polaris Results 20240917 Cape Farewell"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/dmi_icecharts_geojson/202409172100_CapeFarewell_RIC-processed.geojson
+      - Time: "20240921"
+        Assets:
+          - Identifier: "Polaris Results 20240921 Cape Farewell"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/dmi_icecharts_geojson/202409212030_CapeFarewell_RIC-processed.geojson
+      - Time: "20240923"
+        Assets:
+          - Identifier: "Polaris Results 20240923 Cape Farewell"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/dmi_icecharts_geojson/202409232040_CapeFarewell_RIC-processed.geojson
+
