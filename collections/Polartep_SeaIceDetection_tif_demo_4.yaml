@@ -1,0 +1,24 @@
+Name: Polartep_SeaIceDetection_tif_demo_4
+Title: Sentinel 1 scene
+EodashIdentifier: Polartep_SeaIceDetection_tif_demo_4
+Description: 'Sentinel 1 Scene'
+Themes:
+  - cryosphere
+Tags:
+  - placeholder
+Satellite:
+  - placeholder
+Sensor:
+  - placeholder
+Agency:
+  - ESA
+# Legend: Polartep_SeaIceDetection_tif_demo/cm_legend.png
+Image: Polartep_SeaIceDetection_tif_demo/thumbnail.png
+Resources:
+  - Name: COG source
+    Bbox: [-40, 62.5, -30, 67]
+    TimeEntries:
+      - Time: "20180325"
+        Assets:
+          - Identifier: "Sentinel 1 Scene"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/S1A_EW_GRDM_1SDH_20180325_3857_COG.tiff
