@@ -1,0 +1,85 @@
+{
+  "type": "Collection",
+  "id": "Polartep_SeaIceDetection_tif_demo_3",
+  "stac_version": "1.0.0",
+  "description": "FLOE",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./Polartep_SeaIceDetection_tif_demo_3/2018/2018-03-25T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2018-03-25T00:00:00Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/S1A_EW_GRDM_1SDH_20180325T194759_20180325T194859_021176_024676_449C.tif_FLOE_3857.tif"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceDetection_tif_demo/cog_style_FLOE.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "FLOE"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Concentration Detection Model"
+    }
+  ],
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "Polartep_SeaIceDetection_tif_demo_3",
+  "endpointtype": "COG source",
+  "title": "Floe size",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -40,
+          62.5,
+          -30,
+          67
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-03-25T00:00:00Z",
+          "2018-03-25T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceDetection_tif_demo/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

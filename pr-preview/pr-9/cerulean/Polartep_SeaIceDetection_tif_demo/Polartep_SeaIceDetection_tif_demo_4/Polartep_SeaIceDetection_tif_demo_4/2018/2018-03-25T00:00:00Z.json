@@ -1,0 +1,81 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "2018-03-25T00:00:00Z",
+  "properties": {
+    "datetime": "2018-03-25T00:00:00Z"
+  },
+  "geometry": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -40,
+                62.5
+              ],
+              [
+                -30,
+                62.5
+              ],
+              [
+                -30,
+                67
+              ],
+              [
+                -40,
+                67
+              ],
+              [
+                -40,
+                62.5
+              ]
+            ]
+          ]
+        },
+        "properties": {}
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1 scene"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1 scene"
+    }
+  ],
+  "assets": {
+    "Sentinel 1 Scene": {
+      "href": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/S1A_EW_GRDM_1SDH_20180325_3857_COG.tiff",
+      "type": "image/tiff",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    -40,
+    62.5,
+    -30,
+    67
+  ],
+  "stac_extensions": [],
+  "collection": "Polartep_SeaIceDetection_tif_demo_4"
+}
