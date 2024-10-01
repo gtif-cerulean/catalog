@@ -12,6 +12,31 @@
     },
     {
       "rel": "child",
+      "href": "./Polartep_SeaIceDetection_tif_demo_4/collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1 scene",
+      "endpointtype": "COG source",
+      "code": "Polartep_SeaIceDetection_tif_demo_4",
+      "id": "Polartep_SeaIceDetection_tif_demo_4",
+      "themes": [
+        "cryosphere"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "Polartep_SeaIceDetection_tif_demo_4"
+    },
+    {
+      "rel": "child",
       "href": "./Polartep_SeaIceDetection_tif_demo_1/collection.json",
       "type": "application/json",
       "title": "Sea Ice Concentration",
@@ -84,31 +109,6 @@
         "ESA"
       ],
       "subcode": "Polartep_SeaIceDetection_tif_demo_3"
-    },
-    {
-      "rel": "child",
-      "href": "./Polartep_SeaIceDetection_tif_demo_4/collection.json",
-      "type": "application/json",
-      "title": "Sentinel 1 scene",
-      "endpointtype": "COG source",
-      "code": "Polartep_SeaIceDetection_tif_demo_4",
-      "id": "Polartep_SeaIceDetection_tif_demo_4",
-      "themes": [
-        "cryosphere"
-      ],
-      "tags": [
-        "placeholder"
-      ],
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "subcode": "Polartep_SeaIceDetection_tif_demo_4"
     },
     {
       "rel": "xyz",
@@ -232,10 +232,10 @@
   "license": "proprietary",
   "summaries": {
     "subcode": [
-      "Polartep_SeaIceDetection_tif_demo_1",
+      "Polartep_SeaIceDetection_tif_demo_2",
       "Polartep_SeaIceDetection_tif_demo_3",
-      "Polartep_SeaIceDetection_tif_demo_4",
-      "Polartep_SeaIceDetection_tif_demo_2"
+      "Polartep_SeaIceDetection_tif_demo_1",
+      "Polartep_SeaIceDetection_tif_demo_4"
     ],
     "themes": [
       "cryosphere"
