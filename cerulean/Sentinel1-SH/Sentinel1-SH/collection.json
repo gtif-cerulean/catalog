@@ -6179,6 +6179,12 @@
       "datetime": "2024-10-24T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./Sentinel1-SH/2024/2024-10-25T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-10-25T00:00:00Z"
+    },
+    {
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
       "type": "image/png",
@@ -6233,7 +6239,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2024-10-24T00:00:00Z"
+          "2024-10-25T00:00:00Z"
         ]
       ]
     }
