@@ -7769,6 +7769,12 @@
       "datetime": "2025-01-17T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./TOPAZ5_P1D_SISNTHICK/2025/2025-01-18T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2025-01-18T00:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/ARCTIC_ANALYSISFORECAST_PHY_002_001/cmems_mod_arc_phy_anfc_6km_detided_P1D-m_202311",
       "type": "image/png",
@@ -7840,7 +7846,7 @@
       "interval": [
         [
           "2021-07-05T00:00:00Z",
-          "2025-01-17T00:00:00Z"
+          "2025-01-18T00:00:00Z"
         ]
       ]
     }
