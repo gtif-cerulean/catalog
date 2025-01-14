@@ -6647,6 +6647,30 @@
       "datetime": "2025-01-10T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./Sentinel2-L2A-SH/2025/2025-01-11T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2025-01-11T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel2-L2A-SH/2025/2025-01-12T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2025-01-12T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel2-L2A-SH/2025/2025-01-13T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2025-01-13T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel2-L2A-SH/2025/2025-01-14T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2025-01-14T00:00:00Z"
+    },
+    {
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
       "type": "image/png",
@@ -6700,7 +6724,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-01-10T00:00:00Z"
+          "2025-01-14T00:00:00Z"
         ]
       ]
     }
