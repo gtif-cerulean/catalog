@@ -17,7 +17,75 @@ Resources:
   - Name: COG source
     Bbox: [-64.7, 47.65, -64.5, 47.85]
     TimeEntries:
-      - Time: "20240830"
+      - Time: "2024-04-27"
         Assets:
-          - Identifier: "Inference"
+          - Identifier: "2024-04-27"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/LandWaterInterfaceMask/img_2_2024-04-27_inference_cog.tif
+      - Time: "2024-05-07"
+        Assets:
+          - Identifier: "2024-05-07"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/LandWaterInterfaceMask/img_3_2024-05-07_inference_cog.tif
+      - Time: "2024-05-12"
+        Assets:
+          - Identifier: "2024-05-12"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/LandWaterInterfaceMask/img_4_2024-05-12_inference_cog.tif
+      - Time: "2024-05-30"
+        Assets:
+          - Identifier: "2024-05-30"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/LandWaterInterfaceMask/img_5_2024-05-30_inference_cog.tif
+      - Time: "2024-06-06"
+        Assets:
+          - Identifier: "2024-06-06"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/LandWaterInterfaceMask/img_6_2024-06-06_inference_cog.tif
+      - Time: "2024-06-16"
+        Assets:
+          - Identifier: "2024-06-16"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/LandWaterInterfaceMask/img_7_2024-06-16_inference_cog.tif
+      - Time: "2024-06-19"
+        Assets:
+          - Identifier: "2024-06-19"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/LandWaterInterfaceMask/img_8_2024-06-19_inference_cog.tif
+      - Time: "2024-07-01"
+        Assets:
+          - Identifier: "2024-07-01"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/LandWaterInterfaceMask/img_9_2024-07-01_inference_cog.tif
+      - Time: "2024-07-14"
+        Assets:
+          - Identifier: "2024-07-14"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/LandWaterInterfaceMask/img_10_2024-07-14_inference_cog.tif
+      - Time: "2024-07-19"
+        Assets:
+          - Identifier: "2024-07-19"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/LandWaterInterfaceMask/img_11_2024-07-19_inference_cog.tif
+      - Time: "2024-07-21"
+        Assets:
+          - Identifier: "2024-07-21"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/LandWaterInterfaceMask/img_12_2024-07-21_inference_cog.tif
+      - Time: "2024-07-24"
+        Assets:
+          - Identifier: "2024-07-24"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/LandWaterInterfaceMask/img_13_2024-07-24_inference_cog.tif
+      - Time: "2024-07-26"
+        Assets:
+          - Identifier: "2024-07-26"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/LandWaterInterfaceMask/img_14_2024-07-26_inference_cog.tif
+      - Time: "2024-07-29"
+        Assets:
+          - Identifier: "2024-07-29"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/LandWaterInterfaceMask/img_15_2024-07-29_inference_cog.tif
+      - Time: "2024-08-08"
+        Assets:
+          - Identifier: "2024-08-08"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/LandWaterInterfaceMask/img_16_2024-08-08_inference_cog.tif
+      - Time: "2024-08-10"
+        Assets:
+          - Identifier: "2024-08-10"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/LandWaterInterfaceMask/img_17_2024-08-10_inference_cog.tif
+      - Time: "2024-08-25"
+        Assets:
+          - Identifier: "2024-08-25"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/LandWaterInterfaceMask/img_18_2024-08-25_inference_cog.tif
+      - Time: "2024-08-30"
+        Assets:
+          - Identifier: "2024-08-30"
             File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/LandWaterInterfaceMask/img_19_2024-08-30_inference_cog.tif
