@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "Polartep_RCM_demo",
+  "id": "Polartep_LandWaterInterfaceMask_demo",
   "stac_version": "1.0.0",
-  "description": "",
+  "description": "Shippegan Harbor is located in New Brunswick, Canada. The Harbor opens up to the Gulf of St. Lawrence. Scope of work was to explore delineating a land water interface mask using Sentinel-2 L2A images coupled with a ml model. The images shown are not true color. Experimentation with RGB + NIR has caused the miscoloration. Binary mask image denoted land water interface, black represents water; white is land.",
   "links": [
     {
       "rel": "root",
@@ -12,12 +12,12 @@
     },
     {
       "rel": "child",
-      "href": "./Polartep_RCM_demo_5/collection.json",
+      "href": "./Polartep_LandWaterInterfaceMask_demo_input/collection.json",
       "type": "application/json",
-      "title": "RCM HH HV RATIO RGB SIGMA0",
-      "endpointtype": "Sentinel Hub_byoc",
-      "code": "Polartep_RCM_demo_5",
-      "id": "Polartep_RCM_demo_5",
+      "title": "Land Water Interface Mask Input",
+      "endpointtype": "COG source",
+      "code": "Polartep_LandWaterInterfaceMask_demo_input",
+      "id": "Polartep_LandWaterInterfaceMask_demo_input",
       "themes": [
         "cryosphere"
       ],
@@ -25,24 +25,24 @@
         "placeholder"
       ],
       "satellite": [
-        "RADARSAT"
+        "placeholder"
       ],
       "sensor": [
         "placeholder"
       ],
       "agency": [
-        "CSA"
+        "NRC"
       ],
-      "subcode": "Polartep_RCM_demo_5"
+      "subcode": "Polartep_LandWaterInterfaceMask_demo_input"
     },
     {
       "rel": "child",
-      "href": "./Polartep_RCM_demo_1/collection.json",
+      "href": "./Polartep_LandWaterInterfaceMask_demo_inference/collection.json",
       "type": "application/json",
-      "title": "RCM HH Linear Sigma0",
-      "endpointtype": "Sentinel Hub_byoc",
-      "code": "Polartep_RCM_demo_1",
-      "id": "Polartep_RCM_demo_1",
+      "title": "Land Water Interface Mask Inference",
+      "endpointtype": "COG source",
+      "code": "Polartep_LandWaterInterfaceMask_demo_inference",
+      "id": "Polartep_LandWaterInterfaceMask_demo_inference",
       "themes": [
         "cryosphere"
       ],
@@ -50,90 +50,15 @@
         "placeholder"
       ],
       "satellite": [
-        "RADARSAT"
+        "placeholder"
       ],
       "sensor": [
         "placeholder"
       ],
       "agency": [
-        "CSA"
+        "NRC"
       ],
-      "subcode": "Polartep_RCM_demo_1"
-    },
-    {
-      "rel": "child",
-      "href": "./Polartep_RCM_demo_2/collection.json",
-      "type": "application/json",
-      "title": "RCM HH Decibel Sigma0",
-      "endpointtype": "Sentinel Hub_byoc",
-      "code": "Polartep_RCM_demo_2",
-      "id": "Polartep_RCM_demo_2",
-      "themes": [
-        "cryosphere"
-      ],
-      "tags": [
-        "placeholder"
-      ],
-      "satellite": [
-        "RADARSAT"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
-      "agency": [
-        "CSA"
-      ],
-      "subcode": "Polartep_RCM_demo_2"
-    },
-    {
-      "rel": "child",
-      "href": "./Polartep_RCM_demo_3/collection.json",
-      "type": "application/json",
-      "title": "RCM HV Linear Sigma0",
-      "endpointtype": "Sentinel Hub_byoc",
-      "code": "Polartep_RCM_demo_3",
-      "id": "Polartep_RCM_demo_3",
-      "themes": [
-        "cryosphere"
-      ],
-      "tags": [
-        "placeholder"
-      ],
-      "satellite": [
-        "RADARSAT"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
-      "agency": [
-        "CSA"
-      ],
-      "subcode": "Polartep_RCM_demo_3"
-    },
-    {
-      "rel": "child",
-      "href": "./Polartep_RCM_demo_4/collection.json",
-      "type": "application/json",
-      "title": "RCM HV Decibel Sigma0",
-      "endpointtype": "Sentinel Hub_byoc",
-      "code": "Polartep_RCM_demo_4",
-      "id": "Polartep_RCM_demo_4",
-      "themes": [
-        "cryosphere"
-      ],
-      "tags": [
-        "placeholder"
-      ],
-      "satellite": [
-        "RADARSAT"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
-      "agency": [
-        "CSA"
-      ],
-      "subcode": "Polartep_RCM_demo_4"
+      "subcode": "Polartep_LandWaterInterfaceMask_demo_inference"
     },
     {
       "rel": "xyz",
@@ -207,55 +132,37 @@
       "title": "Cerulean GTIF project catalog"
     }
   ],
-  "subcode": "Polartep_RCM_demo",
+  "subcode": "Polartep_LandWaterInterfaceMask_demo",
   "collection_group": "Polar TEP demo datasets",
-  "title": "Radarsat Constellation Mission Sigma0",
+  "title": "Land Water Interface Mask",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -55.7885732737854,
-          58.300365789044726,
-          -36.263770658073334,
-          64.51893865201636
+          -64.7,
+          47.65,
+          -64.5,
+          47.85
         ],
         [
-          -55.7885732737854,
-          58.300365789044726,
-          -36.263770658073334,
-          64.51893865201636
+          -64.7,
+          47.65,
+          -64.5,
+          47.85
         ],
         [
-          -55.7885732737854,
-          58.300365789044726,
-          -36.263770658073334,
-          64.51893865201636
-        ],
-        [
-          -55.7885732737854,
-          58.300365789044726,
-          -36.263770658073334,
-          64.51893865201636
-        ],
-        [
-          -55.7885732737854,
-          58.300365789044726,
-          -36.263770658073334,
-          64.51893865201636
-        ],
-        [
-          -55.7885732737854,
-          58.300365789044726,
-          -36.263770658073334,
-          64.51893865201636
+          -64.7,
+          47.65,
+          -64.5,
+          47.85
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2021-05-01T20:30:24.696000Z",
-          "2024-09-17T20:55:40.740000Z"
+          "2024-04-27T00:00:00Z",
+          "2024-08-30T00:00:00Z"
         ]
       ]
     }
@@ -263,17 +170,14 @@
   "license": "proprietary",
   "summaries": {
     "subcode": [
-      "Polartep_RCM_demo_4",
-      "Polartep_RCM_demo_3",
-      "Polartep_RCM_demo_1",
-      "Polartep_RCM_demo_5",
-      "Polartep_RCM_demo_2"
+      "Polartep_LandWaterInterfaceMask_demo_input",
+      "Polartep_LandWaterInterfaceMask_demo_inference"
     ],
     "themes": [
       "cryosphere"
     ],
     "satellite": [
-      "RADARSAT"
+      "placeholder"
     ],
     "sensor": [
       "placeholder"

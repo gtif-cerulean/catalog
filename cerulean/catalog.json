@@ -532,6 +532,25 @@
     },
     {
       "rel": "child",
+      "href": "./Polartep_LandWaterInterfaceMask_demo/collection.json",
+      "type": "application/json",
+      "title": "Land Water Interface Mask",
+      "code": "Polartep_LandWaterInterfaceMask_demo",
+      "id": "Polartep_LandWaterInterfaceMask_demo",
+      "subcode": "Polartep_LandWaterInterfaceMask_demo",
+      "themes": [
+        "cryosphere"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "collection_group": "Polar TEP demo datasets"
+    },
+    {
+      "rel": "child",
       "href": "./SITI_IS2SITMOGR4-cog/collection.json",
       "type": "application/json",
       "title": "Sea Ice Thickness (ICESat-2)",
