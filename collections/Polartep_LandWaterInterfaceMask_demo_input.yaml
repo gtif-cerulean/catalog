@@ -1,0 +1,23 @@
+Name: Polartep_LandWaterInterfaceMask_demo_input
+Title: Land Water Interface Mask Input
+EodashIdentifier: Polartep_LandWaterInterfaceMask_demo_input
+Description: 'Input'
+Themes:
+  - cryosphere
+Tags:
+  - placeholder
+Satellite:
+  - placeholder
+Sensor:
+  - placeholder
+Agency:
+  - NRC
+#Image: Polartep_SeaIceDetection_tif_demo/thumbnail.png
+Resources:
+  - Name: COG source
+    Bbox: [-64.7, 47.65, -64.5, 47.85]
+    TimeEntries:
+      - Time: "20240830"
+        Assets:
+          - Identifier: "Input"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/LandWaterInterfaceMask/img_19_2024-08-30_input_cog.tif
