@@ -1,0 +1,218 @@
+{
+  "type": "Collection",
+  "id": "Polartep_SeaIceDetection_tif_demo",
+  "stac_version": "1.0.0",
+  "description": "## Caveat\nThe data shown here are to demonstrate the use of machine learning in \nPolar TEP and are not to be used for navigational purposes.\n\n## Background\n\nManual ice charting from multi-sensor satellite data analysis has for many \nyears been the primary method at the National Ice Services for producing \nsea ice information for marine safety. Ice analysts primarily use satellite \nsynthetic aperture radar (SAR) imagery due to the high spatial resolution \nand the capability to image the surface through clouds and in polar \ndarkness, but also optical imagery in clear sky and daylight conditions, \nthermal-infrared and microwave radiometer data from e.g. AMSR2. Ice \nanalysts mention the coarse spatial resolution of microwave radiometers as \nthe primary limitation to the use of the data.\n\nThe traditional manual ice charting method is time-consuming and limited \nin spatial and temporal coverage. Further, it is challenged by an increasing \namount of available satellite imagery, along with a growing number of users\naccessing wider parts of the Arctic due to the thinning of the Arctic sea ice.\n\nThe automation of the time-consuming and labor-intensive sea ice charting \nprocess has the potential to provide users with near-real-time sea ice \nproducts of higher spatial resolution, larger spatial and temporal coverage, \nand increased consistency.\n\n![Examples of variables in the dataset](https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceDetection_tif_demo/examples.png \"Examples of variables in the dataset\")\n\n* Top left: Sentinel-1 SAR image HH polarization with NERSC noise correction applied.\n* Top right: Sentinel-1 SAR image HV polarization with NERSC noise correction applied.\n* Bottom right: AMSR2 brightness temperatures in the 89GHz channel.\n* Bottom left: Example of the label (ice chart) data (colour scheme corresponding to the polygon ID numbers and not, e.g., ice concentration).\n\n## Machine Learning Model\n\nConvolutional Neural Networks (CNN) have great potential to help \nautomate the interpretation of sea ice in satellite images. In the example \nused here, a CNN model based on U-Net has been employed.\n\nU-Net has a near-symmetric encoder\u2013decoder structure in which the \ncontracting path captures rich low-level representations while the \nexpanding path enables precise localization. Skip-connections are used \nbetween corresponding pairs of encoder and decoder blocks to propagate \ninformation from the contracting path to the expanding path. This facilitates\nthe recovery of high-frequency spatial information and improves the \nboundary accuracy. In the U-Net architecture, a block constitutes a \nsequence of two 3\u00d73 convolutional layers, each followed by a batch \nnormalization (BN) procedure and the rectified linear unit (ReLU) activation\nfunction. In the contracting path, 2\u00d72 max-pooling operations are used for \nfeature map downsampling. Similarly, in the expanding path, every block is \npreceded by a bilinear upsampling operation. Each symmetric encoder and \ndecoder block with a skip connection between them is defined here as a \nlevel. A schematic overview of a regular four-level U-Net architecture is \nshown in Fig. 1. The original U-Net in [1] uses the identical number of \nfilters in the convolutional layers across the same level and doubles them \nfor each level, i.e., 64, 128, 256, and 512. Here, we utilise 8 levels and limit \nthe number of filters to 32 in the initial and final levels, and 64 in the other \nlevels. The U-Net implementation is available at [2].\n\n![Schematic overview of a four-level U-Net architecture](https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceDetection_tif_demo/model_schema.png \"Schematic overview of a four-level U-Net architecture\")\n\n### References\n[1]\u00a0O. Ronneberger, P. Fischer and T. Brox, \"U-Net: Convolutional networks for biomedical image segmentation\",\u00a0Proc. Int. Conf. Med. Image Comput. Comput.-Assist. Intervent., pp. 234-241, Oct. 2015.               \n[2]\u00a0A. Stokholm and A. Kucik, U-Net model PyTorch implementation, 2021, [online] Available: https://github.com/astokholm/AI4SeaIce.git.\n\n## Training Data\n\nAutomating the process on SAR data alone is challenging. SAR images show\npatterns related to ice formations, but backscatter intensities can be \nambiguous, complicating the discrimination between ice and open water, \ne.g. at high wind speeds. To tackle the challenges, the training dataset used \ncontains both Sentinel-1 active microwave data and corresponding \nMicrowave Radiometer (MWR) data from AMSR2. While SAR data has \nambiguities, it has a high spatial resolution, whereas MWR data has good \ncontrast between open water and ice. However, the coarse resolution of the \nAMSR2 MWR observations introduces a new set of obstacles, e.g. land spill-\nover, which can lead to erroneous sea ice predictions along the coastline \nadjacent to open water. Label data in the datasets are ice charts produced \nby the Greenland ice service at the Danish Meteorological Institute (DMI) \nand the Canadian Ice Service (CIS).\n\n![Overview of the coverage of Sentinel-1 SAR scenes included in the training data](https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceDetection_tif_demo/overview.png \"Overview of the coverage of Sentinel-1 SAR scenes included in the training data\")\n\n* (brighter color means higher data density, i.e. satellite coverage). The texts on the map refer to the names of ice charting regions used by CIS and DMI\n\n## Model Results\n\nWhen presented with corresponding Sentinel 1 and AMSR 2 satellite \nimages, the model calculates three sea ice parameters:\n\n* Sea ice concentration: expressed as 11 classes, from open water (0/10ths) to ice covered (10/10ths).\n* Stage-of-development: expressed as six classes (Ice Free, New Ice, Young ice, Thin First-year ice, Thick First-year ice, Old ice).\n* Floe size: expressed as seven classes (Ice Free, Ice cakes, Small floes, Medium floes, Big floes, Vast & Giant floes, Icebergs & Growlers).\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./Polartep_SeaIceDetection_tif_demo_1/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Concentration",
+      "endpointtype": "COG source",
+      "code": "Polartep_SeaIceDetection_tif_demo_1",
+      "id": "Polartep_SeaIceDetection_tif_demo_1",
+      "themes": [
+        "cryosphere"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "Polartep_SeaIceDetection_tif_demo_1"
+    },
+    {
+      "rel": "child",
+      "href": "./Polartep_SeaIceDetection_tif_demo_2/collection.json",
+      "type": "application/json",
+      "title": "Stage of Development",
+      "endpointtype": "COG source",
+      "code": "Polartep_SeaIceDetection_tif_demo_2",
+      "id": "Polartep_SeaIceDetection_tif_demo_2",
+      "themes": [
+        "cryosphere"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "Polartep_SeaIceDetection_tif_demo_2"
+    },
+    {
+      "rel": "child",
+      "href": "./Polartep_SeaIceDetection_tif_demo_3/collection.json",
+      "type": "application/json",
+      "title": "Floe size",
+      "endpointtype": "COG source",
+      "code": "Polartep_SeaIceDetection_tif_demo_3",
+      "id": "Polartep_SeaIceDetection_tif_demo_3",
+      "themes": [
+        "cryosphere"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "Polartep_SeaIceDetection_tif_demo_3"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2022",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "cloudless-2022",
+      "attribution": "{ EOxCloudless 2022: <a href=\"//s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"//eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2022) }"
+    },
+    {
+      "rel": "wms",
+      "href": "//sxcat-demo.eox.at/sxcat_maps/wms",
+      "type": "image/png",
+      "title": "Terrain Light Stereographic North",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "sx-cat_ortho680500",
+      "wms:layers": "sx-cat_ortho680500",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "eodash:proj4_def": {
+        "name": "ORTHO:680500",
+        "def": "+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs"
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain light",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "terrain-light",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "eox-osm",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    }
+  ],
+  "subcode": "Polartep_SeaIceDetection_tif_demo",
+  "collection_group": "Polar TEP demo datasets",
+  "title": "Sea Ice Concentration Detection Model",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -40,
+          62.5,
+          -30,
+          67
+        ],
+        [
+          -40,
+          62.5,
+          -30,
+          67
+        ],
+        [
+          -40,
+          62.5,
+          -30,
+          67
+        ],
+        [
+          -40,
+          62.5,
+          -30,
+          67
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-03-25T00:00:00Z",
+          "2018-03-25T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "summaries": {
+    "subcode": [
+      "Polartep_SeaIceDetection_tif_demo_3",
+      "Polartep_SeaIceDetection_tif_demo_2",
+      "Polartep_SeaIceDetection_tif_demo_1"
+    ],
+    "themes": [
+      "cryosphere"
+    ],
+    "satellite": [
+      "placeholder"
+    ],
+    "sensor": [
+      "placeholder"
+    ]
+  }
+}

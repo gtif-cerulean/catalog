@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "2023-04-01T00:00:00Z",
+  "properties": {
+    "datetime": "2023-04-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -71,
+                61.5
+              ],
+              [
+                25,
+                61.5
+              ],
+              [
+                25,
+                82
+              ],
+              [
+                -71,
+                82
+              ],
+              [
+                -71,
+                61.5
+              ]
+            ]
+          ]
+        },
+        "properties": {}
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_Harshness_map_demo/cog_style.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "Harshness map demo"
+      ]
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Harshness map demo"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Harshness map demo"
+    }
+  ],
+  "assets": {
+    "Harshness map demo": {
+      "href": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/harshness_2023_2023_4_60_0.2_0.2_-71_41_25_82_NipTLzM1MCsyLjUqVy8xMTArMS41KihJPjAuMDEpKigxMisyKmxvZzEwKChJLzEwMDAwKSsxZS00MCkp.tif",
+      "type": "image/tiff",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    -71,
+    61.5,
+    25,
+    82
+  ],
+  "stac_extensions": [],
+  "collection": "Polartep_Harshness_map_demo"
+}

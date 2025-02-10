@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "2023-05-24T04:55:52Z",
+  "properties": {
+    "datetime": "2023-05-24T04:55:52Z"
+  },
+  "geometry": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -30.15,
+                50.1
+              ],
+              [
+                30,
+                50.1
+              ],
+              [
+                30,
+                70.3
+              ],
+              [
+                -30.15,
+                70.3
+              ],
+              [
+                -30.15,
+                50.1
+              ]
+            ]
+          ]
+        },
+        "properties": {}
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_S1_demo/cog_style.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "Sentinel-1 IW VH 20230524T04:55:52Z"
+      ]
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1"
+    }
+  ],
+  "assets": {
+    "Sentinel-1 IW VH 20230524T04:55:52Z": {
+      "href": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/s1a-iw-grd-vh-20230524t045552-20230524t045619-048671-05da94-002_COG.tiff",
+      "type": "image/tiff",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    -30.15,
+    50.1,
+    30,
+    70.3
+  ],
+  "stac_extensions": [],
+  "collection": "Polartep_S1_demo"
+}

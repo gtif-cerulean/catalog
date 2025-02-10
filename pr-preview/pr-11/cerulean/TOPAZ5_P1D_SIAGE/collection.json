@@ -1,0 +1,223 @@
+{
+  "type": "Collection",
+  "id": "TOPAZ5_P1D_SIAGE",
+  "stac_version": "1.0.0",
+  "description": "# Arctic Ocean Physics Analysis and Forecast\n\nThe operational TOPAZ5 Arctic Ocean system uses the HYCOM model and a 100-member EnKF assimilation scheme. It is run daily to provide 10 days of forecast (average of 10 members) of the 3D physical ocean, including sea ice with the CICEv5.1 model; data assimilation is performed weekly to provide 7 days of analysis (ensemble average).\n\nARCTIC_ANALYSISFORECAST_PHY_002_001 is the nominal product of the Arctic Monitoring and\nForecasting Center for ocean physics, and is composed of three-dimensional (3D), daily mean fields of\ntemperature, salinity, sea surface height, zonal velocity, meridional velocity, vertical velocity, sea ice\nconcentration, sea ice thickness, sea ice velocity and sea ice type.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ5_P1D_SIAGE/collection.json",
+      "type": "application/json",
+      "title": "Age of sea ice TOPAZ5",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
+      "code": "TOPAZ5_P1D_SIAGE",
+      "id": "TOPAZ5_P1D_SIAGE",
+      "themes": [
+        "cryosphere"
+      ],
+      "tags": [
+        "model"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "subcode": "TOPAZ5_P1D_SIAGE",
+      "collection_group": "TOPAZ5 - Arctic Ocean Physics Analysis and Forecast",
+      "eodash:mapProjection": {
+        "name": "ORTHO:680500",
+        "def": "+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+        "extent": [
+          -6422528,
+          -6422528,
+          6422528,
+          6422528
+        ]
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2022",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "cloudless-2022",
+      "attribution": "{ EOxCloudless 2022: <a href=\"//s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"//eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2022) }"
+    },
+    {
+      "rel": "wms",
+      "href": "//sxcat-demo.eox.at/sxcat_maps/wms",
+      "type": "image/png",
+      "title": "Terrain Light Stereographic North",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "sx-cat_ortho680500",
+      "wms:layers": "sx-cat_ortho680500",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "eodash:proj4_def": {
+        "name": "ORTHO:680500",
+        "def": "+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs"
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain light",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "terrain-light",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "eox-osm",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    }
+  ],
+  "sci:citation": "TOPAZ5 - Arctic Ocean Physics Analysis and Forecast; ARCTIC_ANALYSISFORECAST_PHY_002_001; E.U. Copernicus Marine Service Information (CMEMS), Marine Data Store (MDS).",
+  "sci:publications": [
+    {
+      "citation": "Sakov, P., Counillon, F., Bertino, L., Lis\u00e6ter, K. A., Oke, P. R. and Korablev, A.: TOPAZ4: an ocean-sea ice data assimilation system for the North Atlantic and Arctic, Ocean Sci., 8(4), 633\u2013656, doi:10.5194/os-8-633-2012, 2012. Melsom, A., Counillon, F., LaCasce, J. H. and Bertino, L.: Forecasting search areas using ensemble ocean circulation modeling, Ocean Dyn., 62(8), 1245\u20131257, doi:10.1007/s10236-012-0561-5, 2012.",
+      "doi": "10.48670/moi-00001"
+    }
+  ],
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "model"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "CMEMS"
+  ],
+  "subcode": "TOPAZ5_P1D_SIAGE",
+  "collection_group": "TOPAZ5 - Arctic Ocean Physics Analysis and Forecast",
+  "eodash:mapProjection": {
+    "name": "ORTHO:680500",
+    "def": "+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+    "extent": [
+      -6422528,
+      -6422528,
+      6422528,
+      6422528
+    ]
+  },
+  "title": "Age of sea ice TOPAZ5",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          50.0,
+          179.92000000005623,
+          90.0
+        ],
+        [
+          -180.0,
+          50.0,
+          179.92000000005623,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-07-05T00:00:00Z",
+          "2025-02-18T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "E.U. Copernicus Marine Service Information (CMEMS)",
+      "description": "The Copernicus Marine Service (or Copernicus Marine Environment Monitoring Service) is the marine component of the Copernicus Programme of the European Union. It provides free, regular and systematic authoritative information on the state of the Blue (physical), White (sea ice) and Green (biogeochemical) ocean,  on a global and regional scale. It is funded by the European Commission (EC) and implemented by Mercator Ocean International. It is designed to serve EU policies and International legal Commitments related to Ocean Governance, to cater for the needs of society at large for global ocean knowledge and to boost the Blue Economy across all maritime sectors by providing free-of-charge state-of-the-art ocean data and information.",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://data.marine.copernicus.eu/"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "TOPAZ5_P1D_SIAGE"
+    ],
+    "themes": [
+      "cryosphere"
+    ],
+    "satellite": [
+      "placeholder"
+    ],
+    "sensor": [
+      "placeholder"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/TOPAZ5_P1D_SIAGE/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/TOPAZ5_P1D_SIAGE/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

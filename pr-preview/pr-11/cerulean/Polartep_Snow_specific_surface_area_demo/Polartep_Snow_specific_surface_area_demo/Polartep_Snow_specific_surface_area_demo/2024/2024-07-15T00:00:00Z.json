@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "2024-07-15T00:00:00Z",
+  "properties": {
+    "datetime": "2024-07-15T00:00:00Z"
+  },
+  "geometry": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -25.7,
+                62.4
+              ],
+              [
+                -11.3,
+                62.4
+              ],
+              [
+                -11.3,
+                67.1
+              ],
+              [
+                -25.7,
+                67.1
+              ],
+              [
+                -25.7,
+                62.4
+              ]
+            ]
+          ]
+        },
+        "properties": {}
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_Snow_specific_surface_area_demo/cog_style.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "Snow specific surface area"
+      ]
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Snow Specific Surface Area"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Snow Specific Surface Area"
+    }
+  ],
+  "assets": {
+    "Snow specific surface area": {
+      "href": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/snow_specific_surface_area_COG_3857.tif",
+      "type": "image/tiff",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    -25.7,
+    62.4,
+    -11.3,
+    67.1
+  ],
+  "stac_extensions": [],
+  "collection": "Polartep_Snow_specific_surface_area_demo"
+}

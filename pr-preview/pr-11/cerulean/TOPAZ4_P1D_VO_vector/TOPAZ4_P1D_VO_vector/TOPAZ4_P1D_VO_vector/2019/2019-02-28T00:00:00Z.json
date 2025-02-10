@@ -1,0 +1,55 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "2019-02-28T00:00:00Z",
+  "properties": {
+    "datetime": "2019-02-28T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/ARCTIC_MULTIYEAR_PHY_002_003/cmems_mod_arc_phy_my_topaz4_P1D-m_202211",
+      "type": "image/png",
+      "title": "wmts capabilities",
+      "wmts:layer": "ARCTIC_MULTIYEAR_PHY_002_003/cmems_mod_arc_phy_my_topaz4_P1D-m_202211/sea_water_velocity",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "time": "2019-02-28T00:00:00Z",
+        "elevation": 0,
+        "style": "cmap:speed,range:0/2,noClamp,vectorStyle:solidAndVector"
+      }
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Sea water velocity vectors TOPAZ4"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Sea water velocity vectors TOPAZ4"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    -180.0,
+    50.0,
+    179.875,
+    90.0
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.1.0/schema.json"
+  ],
+  "collection": "TOPAZ4_P1D_VO_vector"
+}

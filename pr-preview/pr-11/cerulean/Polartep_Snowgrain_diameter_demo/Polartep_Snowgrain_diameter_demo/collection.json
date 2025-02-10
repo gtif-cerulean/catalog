@@ -1,0 +1,86 @@
+{
+  "type": "Collection",
+  "id": "Polartep_Snowgrain_diameter_demo",
+  "stac_version": "1.0.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./Polartep_Snowgrain_diameter_demo/2024/2024-07-15T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-07-15T00:00:00Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/snow_grain_diameter_COG_3857.tif"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_Snowgrain_diameter_demo/cog_style.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "Snowgrain diameter demo"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Snow Grain Diameter"
+    }
+  ],
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "Polartep_Snowgrain_diameter_demo",
+  "collection_group": "Polar TEP demo datasets",
+  "endpointtype": "COG source",
+  "title": "Snow Grain Diameter",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -25.7,
+          62.4,
+          -11.3,
+          67.1
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-07-15T00:00:00Z",
+          "2024-07-15T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_Snowgrain_diameter_demo/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

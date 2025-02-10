@@ -1,0 +1,204 @@
+{
+  "type": "Collection",
+  "id": "N12_1_sea_ice_concentration_arctic",
+  "stac_version": "1.0.0",
+  "description": "## GCOM-W Sea Ice Concentration\n\nJAXA is releasing Sea ice data observed by JAXA's [Global Change Observation Mission \u2013 Water \u201cSHIZUKU\u201d (GCOM-W)](https://global.jaxa.jp/projects/sat/gcom_w/).\nArctic sea ice extent is used as an important indicator showing the effect of global warming. Taking advantage of the wide-area observation from satellites,\nJAXA is conducting observation of the sea ice in the entire Arctic Ocean. Every winter, drift ice arriving on the coast of the Sea of Okhotsk can be captured.\n\n\n## Additional information\n\n- [Read more](https://earth.jaxa.jp/en/data/products/sea-ice/index.html)\n- Access the [Global Change Observation Mission - Water (GCOM-W) Product Distribution Service](https://suzaku.eorc.jaxa.jp/GCOM_W/research/resdist.html)\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./N12_1_sea_ice_concentration_arctic/collection.json",
+      "type": "application/json",
+      "title": "Sea ice concentration GCOM-W - Arctic",
+      "endpointtype": "WMS_OverwriteTimes",
+      "code": "N12_1_sea_ice_concentration_arctic",
+      "id": "N12_1_sea_ice_concentration_arctic",
+      "themes": [
+        "cryosphere"
+      ],
+      "tags": [
+        "sea ice"
+      ],
+      "satellite": [
+        "GCOM-W"
+      ],
+      "sensor": [
+        "GCOM-W"
+      ],
+      "agency": [
+        "JAXA"
+      ],
+      "subcode": "N12_1_sea_ice_concentration_arctic",
+      "collection_group": "Contributing datasets from eodashboard"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2022",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "cloudless-2022",
+      "attribution": "{ EOxCloudless 2022: <a href=\"//s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"//eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2022) }"
+    },
+    {
+      "rel": "wms",
+      "href": "//sxcat-demo.eox.at/sxcat_maps/wms",
+      "type": "image/png",
+      "title": "Terrain Light Stereographic North",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "sx-cat_ortho680500",
+      "wms:layers": "sx-cat_ortho680500",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "eodash:proj4_def": {
+        "name": "ORTHO:680500",
+        "def": "+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs"
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain light",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "terrain-light",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "eox-osm",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    }
+  ],
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "sea ice"
+  ],
+  "satellite": [
+    "GCOM-W"
+  ],
+  "sensor": [
+    "GCOM-W"
+  ],
+  "agency": [
+    "JAXA"
+  ],
+  "subcode": "N12_1_sea_ice_concentration_arctic",
+  "collection_group": "Contributing datasets from eodashboard",
+  "title": "Sea ice concentration GCOM-W - Arctic",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -20,
+          77,
+          50,
+          83
+        ],
+        [
+          -20,
+          77,
+          50,
+          83
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-01T00:00:00Z",
+          "2024-07-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Global Change Observation Mission \u2013 Water SHIZUKU (GCOM-W)",
+      "description": "The purpose of this website is, first and foremost, to provide the science and broader communities with global, updated ocean productivity estimates. In addition, the website provides information on the models employed, access to model code and ancillary data sets, and comparisons of productivity estimates for alternative models. Field data sets relevant to ocean productivity modeling are also provided and will be continually expanded as new data become available. Educational material and background information on phytoplankton ecology and physiology will also be added in the future.",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://global.jaxa.jp/projects/sat/gcom_w/"
+    },
+    {
+      "name": "GCOM-W Research Product Distribution Service",
+      "description": "The GCOM-W Research Product Distribution Service provides GCOM-W/AMSR2 and Aqua/AMSR-E research products with free of charge.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://suzaku.eorc.jaxa.jp/GCOM_W/research/resdist.html"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "N12_1_sea_ice_concentration_arctic"
+    ],
+    "themes": [
+      "cryosphere"
+    ],
+    "satellite": [
+      "GCOM-W"
+    ],
+    "sensor": [
+      "GCOM-W"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/N12_sea_ice_concentration/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/N12_sea_ice_concentration/Arctic-N12_1.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

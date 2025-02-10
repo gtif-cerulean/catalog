@@ -1,0 +1,152 @@
+{
+  "type": "Collection",
+  "id": "Polartep_RCM_demo_2",
+  "stac_version": "1.0.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-c1c45264-d369-45b2-9d78-e9955580baa5/2024/1eba7fdf-11b1-4f20-b287-a979293c75e6.json",
+      "type": "application/json",
+      "datetime": "2024-09-17T20:55:40Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-c1c45264-d369-45b2-9d78-e9955580baa5/2024/457f47b5-0504-40d2-8edc-122b09660f43.json",
+      "type": "application/json",
+      "datetime": "2024-09-14T20:31:07Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-c1c45264-d369-45b2-9d78-e9955580baa5/2024/9f0a53f3-c8bf-40d3-a3b7-0ad3e8792743.json",
+      "type": "application/json",
+      "datetime": "2024-08-26T20:39:33Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-c1c45264-d369-45b2-9d78-e9955580baa5/2024/15011805-9925-430e-95df-10c10790f3fe.json",
+      "type": "application/json",
+      "datetime": "2024-08-07T20:47:47Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-c1c45264-d369-45b2-9d78-e9955580baa5/2024/b4bec729-442e-4a7d-8b37-7140821d52fa.json",
+      "type": "application/json",
+      "datetime": "2024-08-06T20:39:28Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-c1c45264-d369-45b2-9d78-e9955580baa5/2024/1da6b9a5-c0ee-4936-bf74-819a41255168.json",
+      "type": "application/json",
+      "datetime": "2024-08-05T20:30:25Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-c1c45264-d369-45b2-9d78-e9955580baa5/2024/eff591ab-531a-4f5b-a791-2b6f1ce00dd0.json",
+      "type": "application/json",
+      "datetime": "2024-06-16T20:47:58Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-c1c45264-d369-45b2-9d78-e9955580baa5/2024/0ecc04c3-1fa9-4af5-ba6e-44037e7ebd07.json",
+      "type": "application/json",
+      "datetime": "2024-06-12T20:47:20Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-c1c45264-d369-45b2-9d78-e9955580baa5/2024/610b0e09-268c-4d27-8df0-67d598e802be.json",
+      "type": "application/json",
+      "datetime": "2024-06-11T21:11:46Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-c1c45264-d369-45b2-9d78-e9955580baa5/2024/e1cd0d55-612a-491f-8ac9-c4d463b37115.json",
+      "type": "application/json",
+      "datetime": "2024-05-24T20:22:57Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-c1c45264-d369-45b2-9d78-e9955580baa5/2021/fe390c10-4fb5-49e9-9771-c315f11c428d.json",
+      "type": "application/json",
+      "datetime": "2021-05-17T20:31:03Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-c1c45264-d369-45b2-9d78-e9955580baa5/2021/8aec83fe-1d31-4d1b-9b9b-a0fac2e681e8.json",
+      "type": "application/json",
+      "datetime": "2021-05-01T20:30:24Z"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/1d268596-b3d5-4dbc-9c9e-8e544de29d3b",
+      "type": "image/png",
+      "title": "Polartep_RCM_demo_2",
+      "wms:layers": [
+        "2-HH-DECIBEL-SIGMA0"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Radarsat Constellation Mission Sigma0"
+    }
+  ],
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "RADARSAT"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "CSA"
+  ],
+  "subcode": "Polartep_RCM_demo_2",
+  "endpointtype": "Sentinel Hub_byoc",
+  "title": "RCM HH Decibel Sigma0",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -55.7885732737854,
+          58.300365789044726,
+          -36.263770658073334,
+          64.51893865201636
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-05-01T20:30:24.696000Z",
+          "2024-09-17T20:55:40.740000Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_RCM_demo/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
