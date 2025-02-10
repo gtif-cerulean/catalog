@@ -15,6 +15,7 @@ Agency:
 #Image: Polartep_SeaIceDetection_tif_demo/thumbnail.png
 Resources:
   - Name: COG source
+    Style: Polartep_LandWaterInterfaceMask_demo/cog_style_input.json
     Bbox: [-64.7, 47.65, -64.5, 47.85]
     TimeEntries:
       - Time: "2024-04-27"
