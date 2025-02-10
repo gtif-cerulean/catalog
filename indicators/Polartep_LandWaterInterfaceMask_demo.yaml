@@ -1,0 +1,8 @@
+Name: Polartep_LandWaterInterfaceMask_demo
+Title: Land Water Interface Mask
+EodashIdentifier: Polartep_LandWaterInterfaceMask_demo
+Description: 'Shippegan Harbor is located in New Brunswick, Canada. The Harbor opens up to the Gulf of St. Lawrence. Scope of work was to explore delineating a land water interface mask using Sentinel-2 L2A images coupled with a ml model. The images shown are not true color. Experimentation with RGB + NIR has caused the miscoloration. Binary mask image denoted land water interface, black represents water; white is land.'
+CollectionGroup: 'Polar TEP demo datasets'
+Collections:
+  - Polartep_LandWaterInterfaceMask_demo_input
+  - Polartep_LandWaterInterfaceMask_demo_inference
