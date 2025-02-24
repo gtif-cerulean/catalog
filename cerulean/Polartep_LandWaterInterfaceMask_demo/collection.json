@@ -170,8 +170,8 @@
   "license": "proprietary",
   "summaries": {
     "subcode": [
-      "Polartep_LandWaterInterfaceMask_demo_input",
-      "Polartep_LandWaterInterfaceMask_demo_inference"
+      "Polartep_LandWaterInterfaceMask_demo_inference",
+      "Polartep_LandWaterInterfaceMask_demo_input"
     ],
     "themes": [
       "cryosphere"
