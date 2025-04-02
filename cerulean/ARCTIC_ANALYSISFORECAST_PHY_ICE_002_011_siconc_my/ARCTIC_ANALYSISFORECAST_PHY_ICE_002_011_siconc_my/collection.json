@@ -413,6 +413,12 @@
       "datetime": "2025-02-01T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_siconc_my/2025/2025-03-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2025-03-01T00:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011/cmems_mod_arc_phy_anfc_nextsim_P1M-m_202311",
       "type": "image/png",
@@ -485,7 +491,7 @@
       "interval": [
         [
           "2019-08-01T00:00:00Z",
-          "2025-02-01T00:00:00Z"
+          "2025-03-01T00:00:00Z"
         ]
       ]
     }
